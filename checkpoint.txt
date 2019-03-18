@@ -1,0 +1,26 @@
+**Preprocessing Steps**
+-manually inspect a portion of the data set to develop your domain-specific knowledge regarding the content andformat of the files
+
+-programmatically compile the list of distinct places, topics, and counts of empty places and empty topics
+	-done
+unique places:  {'suriname', 'togo', 'spain', 'jamaica', 'cayman-islands', 'costa-rica', 'czechoslovakia', 'zimbabwe', 'bermuda', 'malta', 'australia', 'antigua', 'lebanon', 'honduras', 'chile', 'new-zealand', 'peru', 'argentina', 'pakistan', 'israel', 'uk', 'east-germany', 'somalia', 'gabon', 'japan', 'tanzania', 'jordan', 'oman', 'north-korea', 'trinidad-tobago', 'portugal', 'liberia', 'guam', 'djibouti', 'bolivia', 'iceland', 'swaziland', 'turkey', 'china', 'mozambique', 'ivory-coast', 'morocco', 'iraq', 'canada', 'egypt', 'nicaragua', 'ecuador', 'tunisia', 'vietnam', 'greece', 'paraguay', 'malawi', 'south-korea', 'yugoslavia', 'algeria', 'france', 'kenya', 'congo', 'bahamas', 'guinea', 'finland', 'uae', 'india', 'iran', 'ethiopia', 'nigeria', 'burkina-faso', 'panama', 'ghana', 'mauritania', 'uganda', 'madagascar', 'liechtenstein', 'saudi-arabia', 'syria', 'uruguay', 'guyana', 'italy', 'benin', 'dominican-republic', 'papua-new-guinea', 'netherlands', 'venezuela', 'austria', 'west-germany', 'kampuchea', 'zaire', 'vanuatu', 'usa', 'lesotho', 'switzerland', 'niger', 'philippines', 'yemen-demo-republic', 'barbados', 'mexico', 'qatar', 'angola', 'burma', 'libya', 'norway', 'indonesia', 'haiti', 'sweden', 'thailand', 'senegal', 'botswana', 'denmark', 'taiwan', 'brazil', 'zambia', 'chad', 'bulgaria', 'afghanistan', 'hong-kong', 'cuba', 'nepal', 'yemen-arab-republic', 'ireland', 'bahrain', 'cameroon', 'poland', 'fiji', 'romania', 'luxembourg', 'colombia', 'sierra-leone', 'sudan', 'south-africa', 'us-virgin-islands', 'ussr', 'kuwait', 'cyprus', 'guatemala', 'singapore', 'hungary', 'bhutan', 'namibia', 'rwanda', 'aruba', 'mauritius', 'bangladesh', 'belgium', 'brunei', 'malaysia', 'el-salvador', 'sri-lanka'}
+unique topics:  {'alum', 'coffee', 'bfr', 'livestock', 'cocoa', 'wpi', 'crude', 'coconut', 'barley', 'castorseed', 'sun-oil', 'trade', 'pet-chem', 'cpi', 'stg', 'housing', 'ringgit', 'rapeseed', 'iron-steel', 'dkr', 'cruzado', 'fishmeal', 'cornglutenfeed', 'nkr', 'veg-oil', 'potato', 'acq', 'red-bean', 'sun-meal', 'gold', 'nat-gas', 'nzdlr', 'soy-meal', 'lei', 'earn', 'rand', 'interest', 'coconut-oil', 'oat', 'fuel', 'rupiah', 'lit', 'propane', 'sorghum', 'palladium', 'corn', 'strategic-metal', 'sunseed', 'cotton', 'soybean', 'soy-oil', 'heat', 'ship', 'zinc', 'dfl', 'platinum', 'wheat', 'citruspulp', 'hk', 'lumber', 'bop', 'grain', 'oilseed', 'lead', 'rape-meal', 'money-fx', 'reserves', 'rape-oil', 'groundnut-oil', 'hog', 'yen', 'retail', 'jobs', 'nickel', 'cottonseed', 'gas', 'palm-oil', 'ipi', 'lin-oil', 'peseta', 'copra-cake', 'lin-meal', 'gnp', 'can', 'money-supply', 'tea', 'orange', 'groundnut', 'corn-oil', 'meal-feed', 'tapioca', 'jet', 'rye', 'plywood', 'silver', 'sfr', 'linseed', 'inventories', 'saudriyal', 'rubber', 'wool', 'naphtha', 'palmkernel', 'sugar', 'dlr', 'copper', 'instal-debt', 'cotton-oil', 'carcass', 'f-cattle', 'skr', 'cpu', 'tin', 'l-cattle', 'income', 'pork-belly', 'castor-oil', 'rice', 'dmk', 'austdlr'}
+number of unique places:  147
+number of unique topics:  120
+number of empty places objects:  2780
+number of empty topics objects:  10211
+
+total articles: 21578
+
+-develop a description of the data which includes any observations you make describing the data and its organization, or describes specific characteristics of the data which you feel might impact its classification or clustering.
+
+-use your existing DSK and your observations from data inspection to anticipate special-case issues for your pre-processing
+
+
+**Feature Vector Designs**
+-design two different feature vectors to represent your data, one for TOPIC classification and another for classifica-tion by PLACES.•create the software to build these feature vectors from the data
+-implement an associated classifier for each of your feature vector designs
+
+	-naive bayes basued on clustering based on bernoulli counts of a feature vector?
+	
+Additional Work?
