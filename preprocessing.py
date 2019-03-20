@@ -12,19 +12,6 @@ def get_filenames():
 	filenames=glob('data/*.sgm')
 	return filenames
 
-def get_datelines(soup,datelines_array):
-	objects=soup.find_all('dateline')
-	for object in objects:
-		months=['January','February','March','April','May','June','July','August','September','October','November','December','Jan','Feb','Mar','Apr','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
-		string=object.string.lower()
-		for month in months:
-			check=object.string.lower().find(month.lower())
-			if(check!=-1):
-				string=object.string.lower()[0:check-2]
-		if(string not in datelines_array):
-			datelines_array.append(string.lower())
-	return datelines_array
-
 def get_objects(soup,type,array,empty_count,counts):
 	objects=soup.find_all(type)
 	for object in objects:
