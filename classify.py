@@ -10,24 +10,27 @@ from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import OneHotEncoder
 from sklearn import preprocessing
 
-def main():
-	data=np.genfromtxt('reduced_titles_array.out',dtype='str',delimiter='\n')
-	print(len(data))
-	data_labels=np.genfromtxt('topics_labels.out',dtype='str',delimiter='\n')
-	print(len(data_labels))
-	
+def get_data(data_filename,labels_filename):
+	data_holder=np.genfromtxt(data_filename,dtype='str',delimiter='\n')
+	labels_holder=np.genfromtxt(labels_filename,dtype='str',delimiter='\n')
 	labels=[]
-	for label in data_labels:
-		l=label.split(" ")
-		if(len(l)<=0):
-			labels.append("EMPTY")
-		else:
-			labels.append(l[0])
+	data=[]
 	
-	train_data=data[0:20000]
-	test_data=data[20001:20500]
-	train_labels=labels[0:20000]
-	test_labels=labels[20001:20500]
+	for index in range(0,len(labels_holder),1):
+		l=labels_holder[index].split(" ")
+		if(l[0]!="EMPTY"):
+			data.append(data_holder[index])
+			labels.append(l[0])
+	return data,labels
+
+def main():
+	data,labels=get_data('reduced_data/reduced_titles_array.out','reduced_data/topics_labels.out')
+	print(len(data))
+	print(len(labels))
+	train_data=data[0:11000]
+	test_data=data[11001:11366]
+	train_labels=labels[0:11000]
+	test_labels=labels[11001:11366]
 	
 	vectorizer = CountVectorizer()
 	X = vectorizer.fit_transform(train_data)
@@ -39,7 +42,8 @@ def main():
 	
 	predicted_labels=neigh.predict(Y)
 
-	classificationReport = classification_report(test_data, test_labels)
+	print(predicted_labels)
+	classificationReport = classification_report(predicted_labels, test_labels)
 	print("Classification report for testing set: ")
 	print(classificationReport)
 	
