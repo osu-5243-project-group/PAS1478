@@ -27,7 +27,7 @@ usa brazil venezuela
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -126,7 +126,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -186,7 +186,7 @@ canada
 canada
 canada
 usa
-
+EMPTY
 usa brazil
 canada
 usa
@@ -213,7 +213,7 @@ usa
 japan
 usa
 usa
-
+EMPTY
 japan
 usa
 italy
@@ -258,7 +258,7 @@ poland usa
 new-zealand
 indonesia
 japan
-
+EMPTY
 egypt congo
 belgium
 australia uk
@@ -280,7 +280,7 @@ japan
 china usa
 china
 thailand
-
+EMPTY
 japan
 singapore
 usa ussr
@@ -295,7 +295,7 @@ uk
 japan
 netherlands
 japan china
-
+EMPTY
 hong-kong
 singapore
 uk
@@ -380,7 +380,7 @@ usa
 usa
 switzerland
 usa
-
+EMPTY
 usa
 usa
 usa iran lebanon
@@ -389,15 +389,15 @@ canada
 uk usa
 hong-kong
 usa
-
+EMPTY
 usa
 usa
 france
-
+EMPTY
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
 uk
 usa
@@ -415,7 +415,7 @@ uk
 switzerland
 switzerland
 usa
-
+EMPTY
 uk brazil usa japan
 usa
 uk
@@ -427,22 +427,22 @@ usa
 switzerland
 tanzania
 taiwan usa hong-kong south-korea
-
-
+EMPTY
+EMPTY
 usa
-
+EMPTY
 usa
 usa
 usa
 usa
 south-korea
 south-korea
-
+EMPTY
 usa
 usa
 italy bangladesh bhutan india nepal pakistan egypt yemen-arab-republic yemen-demo-republic iran iraq
 turkey
-
+EMPTY
 usa
 usa
 canada brazil
@@ -456,7 +456,7 @@ usa
 usa
 usa
 uk brazil france west-germany switzerland italy canada japan
-
+EMPTY
 uk
 usa
 south-africa
@@ -470,7 +470,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa sweden
 usa
 uk china
@@ -508,7 +508,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -516,7 +516,7 @@ usa
 usa canada
 usa
 netherlands
-
+EMPTY
 usa
 usa
 usa
@@ -561,118 +561,118 @@ usa
 italy
 uk brazil colombia
 usa
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa japan
 canada
 usa
@@ -686,12 +686,12 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 uk
@@ -706,11 +706,11 @@ usa
 usa
 usa
 argentina
-
+EMPTY
 usa canada
 usa
 usa
-
+EMPTY
 usa
 usa
 canada
@@ -786,14 +786,14 @@ usa
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
-
+EMPTY
 usa
 usa
 usa
-
+EMPTY
 canada switzerland
 usa
 usa
@@ -827,8 +827,8 @@ usa
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa spain portugal
 usa
@@ -876,14 +876,14 @@ uk usa brazil colombia
 belgium
 usa
 new-zealand
-
+EMPTY
 new-zealand
 usa
 australia
 usa
 malaysia
 malaysia
-
+EMPTY
 usa
 japan uk usa
 japan
@@ -946,7 +946,7 @@ china
 uk usa
 france
 australia
-
+EMPTY
 west-germany brazil
 philippines
 indonesia
@@ -970,7 +970,7 @@ netherlands
 usa
 uk
 usa
-
+EMPTY
 usa
 france brazil
 usa
@@ -978,11 +978,11 @@ netherlands
 usa uk
 usa
 west-germany
-
+EMPTY
 uk ireland
 usa
 usa australia
-
+EMPTY
 usa
 usa
 uk
@@ -1161,9 +1161,9 @@ usa
 usa
 usa
 uk canada
-
-
-
+EMPTY
+EMPTY
+EMPTY
 canada
 usa
 usa
@@ -1201,7 +1201,7 @@ usa
 usa
 switzerland
 usa
-
+EMPTY
 usa
 usa
 italy
@@ -1253,7 +1253,7 @@ usa
 brazil
 usa
 usa jamaica
-
+EMPTY
 france china
 usa
 usa brazil argentina philippines
@@ -1321,14 +1321,14 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 canada
 usa
 usa
 usa
 usa
-
+EMPTY
 canada west-germany
 usa
 usa
@@ -1343,7 +1343,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa japan uk canada
 usa
 canada
@@ -1365,7 +1365,7 @@ canada
 usa
 usa
 canada
-
+EMPTY
 usa
 usa
 usa
@@ -1408,7 +1408,7 @@ usa
 usa
 usa japan
 iran iraq
-
+EMPTY
 canada
 usa
 usa
@@ -1427,14 +1427,14 @@ usa
 usa
 canada
 usa south-africa
-
+EMPTY
 usa
 usa
 usa
 usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
 belgium
 uk netherlands denmark west-germany
@@ -1451,15 +1451,15 @@ usa
 usa
 usa
 greece
-
+EMPTY
 usa
 canada
 uk
-
+EMPTY
 usa
 usa
 usa
-
+EMPTY
 usa
 canada
 usa
@@ -1484,7 +1484,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -1505,20 +1505,20 @@ usa
 canada
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
 usa
 uk
-
+EMPTY
 west-germany tanzania
 belgium
-
+EMPTY
 usa
 dominican-republic
 belgium
-
+EMPTY
 usa
 usa
 canada
@@ -1527,7 +1527,7 @@ canada
 usa
 usa
 usa
-
+EMPTY
 usa
 canada
 usa
@@ -1545,7 +1545,7 @@ usa
 usa
 usa
 luxembourg
-
+EMPTY
 uk
 west-germany
 belgium west-germany netherlands denmark france ireland uk italy spain greece
@@ -1586,11 +1586,11 @@ usa
 usa
 usa
 belgium
-
+EMPTY
 usa
 brazil switzerland
-
-
+EMPTY
+EMPTY
 switzerland usa hong-kong
 usa
 usa
@@ -1609,10 +1609,10 @@ usa
 usa
 usa
 turkey
-
-
+EMPTY
+EMPTY
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -1695,8 +1695,8 @@ canada
 usa
 france
 usa japan
-
-
+EMPTY
+EMPTY
 usa
 france
 usa
@@ -1707,16 +1707,16 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 canada
-
+EMPTY
 usa
 colombia
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -1727,7 +1727,7 @@ canada
 usa
 usa
 usa
-
+EMPTY
 usa ussr
 usa
 usa
@@ -1777,7 +1777,7 @@ usa
 usa ussr
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -1796,7 +1796,7 @@ usa
 usa japan
 usa
 usa
-
+EMPTY
 australia usa
 usa
 usa
@@ -1825,7 +1825,7 @@ usa
 canada
 usa
 usa japan
-
+EMPTY
 usa israel
 usa
 usa
@@ -1838,7 +1838,7 @@ usa
 usa
 usa china
 usa
-
+EMPTY
 brazil
 usa israel
 usa
@@ -1848,11 +1848,11 @@ usa
 usa
 canada
 usa
-
+EMPTY
 usa
 canada
 usa
-
+EMPTY
 usa
 usa
 canada
@@ -1879,7 +1879,7 @@ usa
 usa
 colombia
 usa
-
+EMPTY
 usa canada switzerland
 usa
 south-africa
@@ -1891,7 +1891,7 @@ new-zealand
 usa
 usa
 new-zealand
-
+EMPTY
 usa iran nicaragua
 usa iran israel
 hong-kong
@@ -1936,7 +1936,7 @@ japan brazil mexico argentina cayman-islands
 japan usa
 australia
 iran iraq uk
-
+EMPTY
 taiwan
 japan
 belgium
@@ -1950,7 +1950,7 @@ nigeria
 uk cayman-islands
 japan usa
 taiwan
-
+EMPTY
 japan
 japan
 uae kuwait oman qatar saudi-arabia
@@ -1958,7 +1958,7 @@ japan
 france
 west-germany
 singapore
-
+EMPTY
 uk chile
 poland usa
 uk
@@ -1966,7 +1966,7 @@ belgium
 uk
 france
 hong-kong china
-
+EMPTY
 uk
 west-germany
 japan
@@ -1975,7 +1975,7 @@ argentina
 turkey
 uk
 uk
-
+EMPTY
 usa
 finland ussr
 usa
@@ -1984,8 +1984,8 @@ egypt
 chile
 tanzania canada belgium west-germany uk sweden italy denmark zambia south-africa
 uk
-
-
+EMPTY
+EMPTY
 usa
 uk uae kuwait iran saudi-arabia ecuador qatar nigeria algeria gabon indonesia libya qatar iran saudi-arabia venezuela
 usa
@@ -1997,11 +1997,11 @@ usa
 usa
 canada
 usa
-
+EMPTY
 uk
-
+EMPTY
 usa iraq
-
+EMPTY
 usa
 chile
 canada
@@ -2011,7 +2011,7 @@ france usa west-germany netherlands sweden
 usa
 turkey
 usa
-
+EMPTY
 tanzania canada belgium west-germany uk sweden italy denmark zambia south-africa
 canada
 usa
@@ -2029,18 +2029,18 @@ usa
 canada
 france
 uk
-
+EMPTY
 usa
 iran iraq
-
+EMPTY
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
-
+EMPTY
 usa
-
+EMPTY
 france
 usa
 usa
@@ -2057,16 +2057,16 @@ usa
 usa
 usa
 belgium
-
+EMPTY
 uk usa
 usa
 usa
 spain
 sweden
 netherlands
-
+EMPTY
 belgium
-
+EMPTY
 usa
 usa
 usa
@@ -2085,7 +2085,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 canada
 usa
 usa
@@ -2095,14 +2095,14 @@ italy
 usa ussr
 usa
 usa west-germany
-
+EMPTY
 usa
 netherlands
 usa
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
 sweden
 usa
@@ -2110,7 +2110,7 @@ sweden
 france
 usa
 usa
-
+EMPTY
 usa austria
 brazil
 usa
@@ -2119,10 +2119,10 @@ usa
 west-germany
 usa
 austria
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
 usa
@@ -2133,17 +2133,17 @@ finland
 usa
 uk
 usa
-
+EMPTY
 denmark
 usa
 usa
 usa
-
+EMPTY
 usa
 uk
 usa
-
-
+EMPTY
+EMPTY
 usa
 canada
 canada
@@ -2163,24 +2163,24 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
-
+EMPTY
 uk
-
+EMPTY
 france saudi-arabia italy spain china algeria ussr sri-lanka poland
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
 switzerland
 zambia
@@ -2204,7 +2204,7 @@ canada
 usa
 usa
 uk india
-
+EMPTY
 usa
 usa
 usa
@@ -2213,11 +2213,11 @@ canada
 usa
 switzerland
 switzerland japan
-
+EMPTY
 france
 usa sweden
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -2241,7 +2241,7 @@ usa
 usa
 poland
 switzerland
-
+EMPTY
 luxembourg
 iraq iran uk turkey
 usa
@@ -2260,7 +2260,7 @@ usa
 usa
 usa
 netherlands
-
+EMPTY
 france morocco israel
 usa
 usa
@@ -2299,7 +2299,7 @@ usa
 italy
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -2310,7 +2310,7 @@ usa
 netherlands
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -2324,21 +2324,21 @@ usa
 morocco algeria tunisia egypt sudan somalia
 usa
 brazil
-
-
+EMPTY
+EMPTY
 usa
-
-usa
-usa
-usa
-usa
-usa
-
+EMPTY
 usa
 usa
 usa
 usa
-
+usa
+EMPTY
+usa
+usa
+usa
+usa
+EMPTY
 usa
 usa
 usa
@@ -2355,13 +2355,13 @@ japan usa west-germany uk france
 usa brazil
 usa
 usa
-
+EMPTY
 australia usa switzerland
 usa
 usa
 west-germany usa
 usa canada
-
+EMPTY
 usa
 usa
 usa
@@ -2374,14 +2374,14 @@ usa
 uk
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
 usa
 usa china
 uk jamaica qatar nigeria saudi-arabia iran iraq indonesia venezuela
-
+EMPTY
 usa
 usa
 usa
@@ -2398,9 +2398,9 @@ usa
 usa
 usa
 usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
 canada
 usa
 canada japan usa
@@ -2421,7 +2421,7 @@ usa
 usa
 usa
 venezuela
-
+EMPTY
 usa
 usa
 usa
@@ -2438,8 +2438,8 @@ usa
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa
@@ -2457,13 +2457,13 @@ usa ussr japan iraq china belgium south-korea mexico italy west-germany spain it
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 colombia
 usa
 usa
@@ -2494,7 +2494,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 france yugoslavia
 usa
@@ -2561,7 +2561,7 @@ usa
 usa
 usa
 uk brazil
-
+EMPTY
 uk
 usa
 canada
@@ -2579,13 +2579,13 @@ finland
 usa
 canada
 usa
-
+EMPTY
 usa
 canada
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 canada
@@ -2619,9 +2619,9 @@ usa
 usa
 usa
 brazil
-
+EMPTY
 usa
-
+EMPTY
 usa
 usa
 canada
@@ -2646,7 +2646,7 @@ canada
 uk canada
 usa
 usa japan
-
+EMPTY
 usa
 usa
 sweden
@@ -2672,10 +2672,10 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
-
+EMPTY
 usa
 france
 usa
@@ -2700,7 +2700,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 venezuela
 usa
 usa
@@ -2720,7 +2720,7 @@ usa
 usa
 usa australia
 france
-
+EMPTY
 usa
 uk
 usa ussr
@@ -2752,7 +2752,7 @@ usa
 usa
 france
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -2781,7 +2781,7 @@ usa
 usa
 canada
 usa
-
+EMPTY
 usa ghana
 argentina
 usa
@@ -2791,17 +2791,17 @@ brazil
 usa
 usa
 usa
-
+EMPTY
 usa
 usa iran
 usa
-
+EMPTY
 usa
 usa
-
+EMPTY
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -2842,7 +2842,7 @@ usa
 usa
 chile
 brazil
-
+EMPTY
 usa
 usa
 usa canada
@@ -2873,7 +2873,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa brazil
 usa south-korea
@@ -2890,7 +2890,7 @@ usa
 usa
 usa egypt
 usa netherlands
-
+EMPTY
 usa japan
 usa
 canada
@@ -2906,7 +2906,7 @@ canada
 usa
 canada
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -2920,7 +2920,7 @@ usa
 usa
 canada
 usa canada
-
+EMPTY
 usa
 usa
 usa
@@ -2936,8 +2936,8 @@ usa
 usa south-africa
 usa ussr west-germany
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa south-africa
 usa
@@ -2946,7 +2946,7 @@ usa
 usa
 argentina brazil
 usa
-
+EMPTY
 usa
 usa
 hong-kong
@@ -3003,7 +3003,7 @@ france
 china
 south-korea
 switzerland
-
+EMPTY
 uk
 usa
 usa
@@ -3032,13 +3032,13 @@ belgium west-germany
 saudi-arabia
 usa
 uganda
-
+EMPTY
 usa hungary
-
+EMPTY
 usa
 usa
 brazil
-
+EMPTY
 usa
 uk
 uk
@@ -3058,7 +3058,7 @@ usa
 usa
 usa
 france
-
+EMPTY
 usa
 sweden
 brazil japan
@@ -3071,7 +3071,7 @@ bangladesh
 sweden
 usa
 france
-
+EMPTY
 usa
 turkey
 canada
@@ -3080,12 +3080,12 @@ usa
 usa
 sweden
 netherlands
-
+EMPTY
 uk
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa japan
 france morocco
 usa
@@ -3111,7 +3111,7 @@ usa
 uk
 usa iran nicaragua
 italy
-
+EMPTY
 canada
 uk sweden
 canada
@@ -3122,7 +3122,7 @@ usa
 uk
 usa
 west-germany
-
+EMPTY
 usa
 angola uruguay
 uk
@@ -3141,7 +3141,7 @@ denmark
 canada
 usa
 usa
-
+EMPTY
 canada usa
 china
 uk sweden
@@ -3156,13 +3156,13 @@ switzerland
 usa
 usa
 usa
-
+EMPTY
 canada
 usa
 canada
 canada
 usa
-
+EMPTY
 italy
 usa
 usa
@@ -3183,7 +3183,7 @@ usa
 usa canada
 usa
 uk
-
+EMPTY
 brazil
 west-germany
 usa canada
@@ -3232,7 +3232,7 @@ uk
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -3285,7 +3285,7 @@ usa
 south-africa uk
 usa france
 usa
-
+EMPTY
 usa
 usa
 usa ussr switzerland
@@ -3296,13 +3296,13 @@ usa
 uk
 usa
 usa
-
+EMPTY
 usa
 usa
 canada
 usa canada
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa
@@ -3330,7 +3330,7 @@ brazil
 usa ussr
 usa china
 ecuador
-
+EMPTY
 usa canada
 usa australia
 usa
@@ -3340,7 +3340,7 @@ usa morocco
 usa spain
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -3351,23 +3351,23 @@ usa
 usa peru
 belgium
 usa
-
+EMPTY
 usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
-
-
-usa
-usa
-usa
+EMPTY
+EMPTY
 usa
 usa
 usa
-
+usa
+usa
+usa
+EMPTY
 usa
 canada
 usa
@@ -3403,7 +3403,7 @@ canada
 usa
 usa
 canada
-
+EMPTY
 usa
 belgium spain portugal
 usa
@@ -3473,12 +3473,12 @@ japan
 bangladesh
 austria
 uk
-
+EMPTY
 uk
 japan
 hong-kong south-korea
 uk
-
+EMPTY
 uk
 belgium
 japan
@@ -3495,7 +3495,7 @@ uk
 uk
 uk
 south-africa
-
+EMPTY
 uk saudi-arabia
 france
 thailand
@@ -3521,7 +3521,7 @@ japan
 china
 uk
 japan indonesia
-
+EMPTY
 iran iraq
 hungary
 denmark
@@ -3535,7 +3535,7 @@ usa philippines
 usa uk canada
 uk
 france
-
+EMPTY
 jamaica usa
 canada
 portugal
@@ -3567,7 +3567,7 @@ usa
 japan usa
 china
 usa
-
+EMPTY
 nigeria
 netherlands
 usa
@@ -3583,12 +3583,12 @@ usa
 japan
 uk
 usa
-
+EMPTY
 usa
 usa
 usa
 usa iran nicaragua
-
+EMPTY
 usa canada
 hungary
 ecuador venezuela
@@ -3650,7 +3650,7 @@ canada
 nigeria
 usa
 usa
-
+EMPTY
 usa
 usa
 canada
@@ -3660,7 +3660,7 @@ usa
 spain
 spain
 usa
-
+EMPTY
 usa
 usa
 uk
@@ -3675,7 +3675,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -3699,7 +3699,7 @@ west-germany
 usa
 usa
 west-germany
-
+EMPTY
 usa
 canada
 usa
@@ -3716,7 +3716,7 @@ uk
 usa uk
 netherlands
 uk
-
+EMPTY
 usa
 usa
 usa
@@ -3726,7 +3726,7 @@ usa
 canada
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -3789,14 +3789,14 @@ usa
 usa
 usa
 usa
-
+EMPTY
 uk
 usa
 usa
 netherlands
 usa
 usa
-
+EMPTY
 austria
 usa
 usa
@@ -3804,15 +3804,15 @@ usa
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa
 usa
 usa
 usa yugoslavia
-
+EMPTY
 france
 canada
 france
@@ -3833,7 +3833,7 @@ usa uk
 usa
 usa new-zealand
 usa china
-
+EMPTY
 usa
 austria
 usa
@@ -3845,10 +3845,10 @@ usa
 usa
 canada
 usa ussr
-
+EMPTY
 usa west-germany
-
-
+EMPTY
+EMPTY
 usa
 canada
 iran iraq
@@ -3860,7 +3860,7 @@ usa
 usa
 usa
 peru
-
+EMPTY
 usa
 usa
 usa
@@ -3908,7 +3908,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa china
 usa
@@ -3951,17 +3951,17 @@ usa mexico
 usa
 usa
 canada
-
+EMPTY
 brazil
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 canada
 usa
-
+EMPTY
 usa
 usa china
 usa
@@ -3972,8 +3972,8 @@ usa
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa
@@ -4029,7 +4029,7 @@ ecuador venezuela
 usa
 iran iraq
 uk japan
-
+EMPTY
 usa
 ecuador
 uk
@@ -4050,7 +4050,7 @@ japan usa
 japan
 bangladesh
 uk
-
+EMPTY
 japan
 usa japan
 south-korea usa
@@ -4084,7 +4084,7 @@ france
 china
 switzerland
 sweden
-
+EMPTY
 uk
 uk
 uk
@@ -4145,7 +4145,7 @@ usa
 usa
 usa
 switzerland
-
+EMPTY
 south-africa
 usa
 usa
@@ -4161,7 +4161,7 @@ canada
 usa
 usa
 west-germany
-
+EMPTY
 japan
 uk
 usa
@@ -4182,7 +4182,7 @@ usa uk
 usa
 usa thailand
 usa
-
+EMPTY
 usa
 canada
 uk
@@ -4275,13 +4275,13 @@ usa
 usa
 usa
 usa
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 switzerland
-
+EMPTY
 usa
 netherlands
 usa
@@ -4290,7 +4290,7 @@ portugal
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 belgium
@@ -4308,7 +4308,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa japan
@@ -4331,7 +4331,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -4387,7 +4387,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa ussr
@@ -4410,11 +4410,11 @@ canada
 usa
 usa
 usa
-
+EMPTY
 uk
-
+EMPTY
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -4430,8 +4430,8 @@ colombia
 usa
 peru
 usa iran
-
-
+EMPTY
+EMPTY
 usa
 argentina
 usa
@@ -4442,7 +4442,7 @@ usa
 france usa
 canada
 france usa argentina australia
-
+EMPTY
 usa
 usa
 usa
@@ -4457,13 +4457,13 @@ uk
 usa
 canada
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -4476,15 +4476,15 @@ canada
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
 canada
 canada
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa
@@ -4527,8 +4527,8 @@ usa
 usa
 usa
 usa kenya south-africa
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa
@@ -4555,14 +4555,14 @@ usa
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
 south-africa
 usa
 usa
-
+EMPTY
 usa
 usa japan
 usa
@@ -4575,7 +4575,7 @@ south-africa
 usa brazil
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -4632,7 +4632,7 @@ japan
 japan usa
 japan
 west-germany
-
+EMPTY
 australia
 china
 switzerland
@@ -4649,13 +4649,13 @@ japan
 switzerland
 india malaysia
 japan
-
-
+EMPTY
+EMPTY
 japan
 taiwan
-
+EMPTY
 switzerland
-
+EMPTY
 uk
 south-africa
 belgium
@@ -4672,7 +4672,7 @@ uk
 belgium
 india
 uk
-
+EMPTY
 japan usa
 sweden
 thailand kampuchea
@@ -4699,7 +4699,7 @@ canada
 singapore
 canada
 france
-
+EMPTY
 japan
 uk
 japan
@@ -4754,12 +4754,12 @@ usa
 japan
 canada
 west-germany
-
-
-
+EMPTY
+EMPTY
+EMPTY
 west-germany
-
-
+EMPTY
+EMPTY
 uk
 brazil philippines mexico usa
 canada
@@ -4779,11 +4779,11 @@ netherlands
 usa
 usa
 netherlands
-
+EMPTY
 uk
 usa
 uganda kenya
-
+EMPTY
 norway
 usa
 switzerland
@@ -4825,7 +4825,7 @@ switzerland
 ussr usa
 usa
 usa
-
+EMPTY
 france
 west-germany
 canada
@@ -4833,11 +4833,11 @@ brazil
 haiti
 usa
 ussr west-germany
-
+EMPTY
 usa
 uk
 usa
-
+EMPTY
 usa
 usa
 brazil
@@ -4856,10 +4856,10 @@ usa
 uk
 usa
 usa
-
+EMPTY
 usa
 usa uk
-
+EMPTY
 usa
 uk
 usa
@@ -4877,7 +4877,7 @@ usa
 usa
 canada
 usa
-
+EMPTY
 italy
 usa
 uk
@@ -4886,7 +4886,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 canada
 usa
 aruba
@@ -4901,7 +4901,7 @@ usa
 usa
 uk
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -4910,7 +4910,7 @@ usa
 usa
 canada
 usa
-
+EMPTY
 usa
 belgium
 usa brazil
@@ -4922,7 +4922,7 @@ belgium
 canada
 usa
 usa
-
+EMPTY
 usa
 uk
 usa
@@ -4946,8 +4946,8 @@ usa
 usa
 ecuador
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
 brazil
@@ -4956,9 +4956,9 @@ usa
 usa
 usa
 usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
 usa
@@ -4997,7 +4997,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 colombia
 usa
@@ -5021,8 +5021,8 @@ usa
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa
@@ -5043,7 +5043,7 @@ italy
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -5059,13 +5059,13 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa paraguay
 usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -5163,7 +5163,7 @@ france west-germany
 philippines
 iran
 kenya
-
+EMPTY
 saudi-arabia
 ivory-coast
 usa
@@ -5281,7 +5281,7 @@ taiwan usa
 brazil saudi-arabia
 uk
 switzerland
-
+EMPTY
 belgium uk west-germany
 usa
 usa
@@ -5317,16 +5317,16 @@ usa
 usa
 france
 usa
-
+EMPTY
 usa
 usa
 west-germany
 usa
 uk
-
+EMPTY
 usa
 switzerland
-
+EMPTY
 brazil
 usa
 usa
@@ -5334,7 +5334,7 @@ usa
 usa
 usa
 uk
-
+EMPTY
 zambia
 usa
 usa
@@ -5370,7 +5370,7 @@ usa
 usa
 west-germany usa
 usa
-
+EMPTY
 usa
 france
 usa
@@ -5431,12 +5431,12 @@ usa
 usa
 west-germany
 uk
-
+EMPTY
 west-germany
 canada
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -5475,7 +5475,7 @@ usa
 usa
 canada usa
 usa
-
+EMPTY
 uk
 uk
 south-africa
@@ -5487,7 +5487,7 @@ usa
 usa
 canada uk
 usa
-
+EMPTY
 usa
 canada
 usa
@@ -5507,7 +5507,7 @@ usa
 usa canada
 france
 usa
-
+EMPTY
 usa
 canada
 italy
@@ -5516,7 +5516,7 @@ uk
 usa
 usa
 usa canada
-
+EMPTY
 usa
 usa
 usa
@@ -5546,7 +5546,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 canada
@@ -5565,11 +5565,11 @@ canada
 usa
 usa
 canada
-
+EMPTY
 usa
 ethiopia
-
-
+EMPTY
+EMPTY
 usa
 usa turkey
 canada
@@ -5581,7 +5581,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 canada
 usa
@@ -5618,7 +5618,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -5631,7 +5631,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa algeria
 usa honduras
 usa
@@ -5649,7 +5649,7 @@ usa algeria
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa turkey algeria morocco tunisia
@@ -5661,7 +5661,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -5685,7 +5685,7 @@ brazil
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -5695,7 +5695,7 @@ usa
 usa
 usa
 argentina west-germany
-
+EMPTY
 usa
 usa
 usa
@@ -5712,7 +5712,7 @@ usa
 usa
 usa
 canada
-
+EMPTY
 canada
 usa uk
 usa
@@ -5751,7 +5751,7 @@ usa
 usa
 usa japan belgium
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -5811,7 +5811,7 @@ japan south-korea
 australia
 japan
 switzerland
-
+EMPTY
 japan
 belgium
 taiwan
@@ -5835,14 +5835,14 @@ spain
 indonesia
 taiwan
 luxembourg italy
-
+EMPTY
 italy
 belgium
 taiwan
 france
 uk
-
-
+EMPTY
+EMPTY
 uk
 zimbabwe
 uk
@@ -5866,7 +5866,7 @@ sweden
 japan iran cyprus
 west-germany
 netherlands suriname
-
+EMPTY
 netherlands
 usa
 usa
@@ -5912,7 +5912,7 @@ usa
 usa
 canada
 usa
-
+EMPTY
 switzerland
 west-germany
 switzerland
@@ -5925,7 +5925,7 @@ usa
 usa
 canada
 west-germany
-
+EMPTY
 denmark
 usa
 usa
@@ -5956,19 +5956,19 @@ usa
 usa
 switzerland
 canada
-
+EMPTY
 usa
 usa
 uk japan
 usa iran
 usa japan
 usa
-
+EMPTY
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa ussr
 france
 usa
@@ -5977,19 +5977,19 @@ usa
 usa
 usa
 usa china
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
 uk
 usa
 usa
 usa
-
+EMPTY
 uk norway
 canada
-
+EMPTY
 canada
 usa
 usa
@@ -6010,7 +6010,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 uk ireland usa
 ussr usa
@@ -6023,7 +6023,7 @@ usa
 usa
 belgium west-germany
 zambia south-africa
-
+EMPTY
 usa
 usa brazil
 usa
@@ -6033,7 +6033,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 uk
 usa
 usa
@@ -6041,7 +6041,7 @@ west-germany
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -6065,8 +6065,8 @@ usa
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa
@@ -6156,31 +6156,31 @@ usa
 uk
 usa
 france
-
+EMPTY
 usa
-
+EMPTY
 usa
 usa
 usa
 usa
 usa
 australia
-
+EMPTY
 usa
-
-usa
-usa
+EMPTY
 usa
 usa
 usa
-
+usa
+usa
+EMPTY
 belgium
 usa
 usa
 usa
 usa
 usa
-
+EMPTY
 venezuela ecuador
 usa
 canada
@@ -6209,7 +6209,7 @@ belgium
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -6233,7 +6233,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 uk
 usa
@@ -6255,7 +6255,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -6265,11 +6265,11 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -6291,7 +6291,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa ussr
 usa
@@ -6330,7 +6330,7 @@ usa
 usa
 canada
 usa
-
+EMPTY
 malaysia
 hong-kong
 philippines
@@ -6339,12 +6339,12 @@ japan
 bangladesh
 philippines
 hong-kong
-
+EMPTY
 japan
 indonesia
 usa iran lebanon
 japan usa
-
+EMPTY
 kuwait
 uk
 uk
@@ -6352,18 +6352,18 @@ china
 thailand
 hong-kong
 malaysia
-
+EMPTY
 uk
 japan
 hong-kong
-
+EMPTY
 uk
 singapore
-
+EMPTY
 uk
-
-
-
+EMPTY
+EMPTY
+EMPTY
 malaysia usa
 philippines
 uk
@@ -6391,18 +6391,18 @@ philippines
 lebanon saudi-arabia
 west-germany uk
 uk
-
+EMPTY
 zaire
 japan
 japan
-
+EMPTY
 uk
 uk
 japan
 usa
 japan
 iraq iraq
-
+EMPTY
 new-zealand
 uk
 uk
@@ -6413,9 +6413,9 @@ uk egypt
 usa
 uk ivory-coast
 spain
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
 netherlands
@@ -6432,21 +6432,21 @@ usa
 malaysia
 usa
 uk
-
+EMPTY
 india
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
-
+EMPTY
 uae czechoslovakia
 uk
 west-germany
 usa
 france
-
+EMPTY
 netherlands japan
 uk india
 uk
@@ -6456,8 +6456,8 @@ usa
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
 sweden
 usa
@@ -6479,9 +6479,9 @@ usa
 usa
 uk
 west-germany
-
+EMPTY
 uk
-
+EMPTY
 usa
 uk france denmark west-germany belgium
 usa
@@ -6533,13 +6533,13 @@ usa
 usa
 canada
 pakistan sweden
-
+EMPTY
 usa
 usa canada
 usa
 usa
 japan
-
+EMPTY
 usa
 usa
 canada
@@ -6566,7 +6566,7 @@ usa
 usa canada
 usa
 usa
-
+EMPTY
 switzerland
 usa
 usa
@@ -6576,12 +6576,12 @@ usa
 uae bahrain oman kuwait qatar saudi-arabia
 usa
 usa
-
+EMPTY
 usa
 usa
-
+EMPTY
 austria
-
+EMPTY
 usa canada
 usa
 usa
@@ -6604,7 +6604,7 @@ france
 canada
 usa
 usa
-
+EMPTY
 uk
 usa
 usa
@@ -6625,7 +6625,7 @@ usa
 sweden usa
 usa israel
 uk
-
+EMPTY
 usa
 usa
 usa mexico
@@ -6640,18 +6640,18 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa uk
 usa canada
 belgium
 usa
 france
 zambia
-
+EMPTY
 usa
 iran iraq
 usa
-
+EMPTY
 usa
 usa
 brazil mexico guatemala ecuador panama costa-rica colombia dominican-republic usa
@@ -6663,7 +6663,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -6672,7 +6672,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 switzerland
 usa
@@ -6710,9 +6710,9 @@ usa
 usa
 usa
 usa
-
+EMPTY
 canada
-
+EMPTY
 usa
 usa
 usa
@@ -6752,7 +6752,7 @@ usa jamaica
 usa
 usa
 usa
-
+EMPTY
 usa
 peru
 brazil
@@ -6779,7 +6779,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -6800,12 +6800,12 @@ usa
 usa
 usa
 usa
-
+EMPTY
 brazil
-
+EMPTY
 usa
 usa
-
+EMPTY
 usa
 usa
 canada
@@ -6819,7 +6819,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -6844,7 +6844,7 @@ usa
 canada usa
 usa
 uk
-
+EMPTY
 usa
 usa
 usa
@@ -6865,10 +6865,10 @@ usa
 canada
 peru
 usa japan
-
+EMPTY
 usa
 usa
-
+EMPTY
 south-africa
 usa
 usa
@@ -6901,7 +6901,7 @@ usa
 canada
 usa
 usa
-
+EMPTY
 argentina
 usa
 usa
@@ -6916,7 +6916,7 @@ usa
 usa japan
 canada
 usa
-
+EMPTY
 brazil
 usa
 usa
@@ -6939,7 +6939,7 @@ usa
 cuba uk
 usa
 usa
-
+EMPTY
 australia
 japan
 new-zealand
@@ -6966,9 +6966,9 @@ sweden
 uk
 uk
 taiwan
-
+EMPTY
 philippines
-
+EMPTY
 switzerland
 south-korea
 switzerland
@@ -6980,12 +6980,12 @@ north-korea usa
 south-korea
 uk
 brazil
-
+EMPTY
 west-germany
 japan north-korea
-
+EMPTY
 switzerland usa uk france west-germany
-
+EMPTY
 saudi-arabia
 west-germany
 uk
@@ -6997,7 +6997,7 @@ saudi-arabia
 france
 belgium
 australia
-
+EMPTY
 australia
 france
 uk
@@ -7006,7 +7006,7 @@ uk
 uk
 uk
 uk
-
+EMPTY
 uk
 japan usa
 uk
@@ -7022,9 +7022,9 @@ west-germany
 ecuador
 south-africa
 japan usa
-
+EMPTY
 west-germany
-
+EMPTY
 japan
 philippines
 japan portugal
@@ -7036,7 +7036,7 @@ uk
 usa
 west-germany usa
 hong-kong
-
+EMPTY
 usa
 usa japan
 usa
@@ -7049,12 +7049,12 @@ usa
 italy
 usa
 west-germany
-
+EMPTY
 usa
 usa
 switzerland
 uk
-
+EMPTY
 usa
 usa
 usa
@@ -7086,7 +7086,7 @@ uk
 france
 jordan sudan
 switzerland
-
+EMPTY
 usa
 usa
 usa
@@ -7103,7 +7103,7 @@ west-germany
 uk ussr
 zimbabwe
 turkey
-
+EMPTY
 usa
 canada
 usa
@@ -7120,11 +7120,11 @@ brazil
 usa
 france
 usa mexico
-
+EMPTY
 colombia
 usa
 philippines ussr
-
+EMPTY
 usa
 canada
 usa
@@ -7194,18 +7194,18 @@ usa
 france sweden
 usa
 panama
-
+EMPTY
 usa
 usa italy
 usa
 usa
 usa
 bahrain
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
-
+EMPTY
 usa
 usa
 switzerland
@@ -7221,11 +7221,11 @@ usa
 france
 france
 usa canada
-
+EMPTY
 usa
 usa
 usa
-
+EMPTY
 canada
 usa
 usa
@@ -7234,7 +7234,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa italy
@@ -7253,7 +7253,7 @@ usa
 usa
 france
 usa
-
+EMPTY
 uk
 usa
 france
@@ -7296,11 +7296,11 @@ usa
 usa
 usa
 france
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
-
+EMPTY
 switzerland
 usa
 usa
@@ -7321,12 +7321,12 @@ usa
 canada
 usa
 belgium
-
-
+EMPTY
+EMPTY
 usa ussr
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -7336,7 +7336,7 @@ usa
 belgium spain
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -7389,7 +7389,7 @@ usa
 usa ussr
 usa taiwan
 usa japan
-
+EMPTY
 usa
 italy
 usa ussr taiwan
@@ -7414,12 +7414,12 @@ usa
 venezuela
 usa
 ecuador
-
+EMPTY
 usa
-
+EMPTY
 usa
 usa
-
+EMPTY
 usa
 canada
 usa
@@ -7433,7 +7433,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -7496,7 +7496,7 @@ usa
 ecuador
 usa
 usa
-
+EMPTY
 usa iran
 costa-rica ussr
 usa
@@ -7519,13 +7519,13 @@ usa
 usa
 usa
 usa japan
-
-
+EMPTY
+EMPTY
 usa
 usa iran nicaragua
-
+EMPTY
 usa canada
-
+EMPTY
 usa
 yugoslavia
 taiwan
@@ -7535,7 +7535,7 @@ china
 usa ussr
 japan
 usa ussr
-
+EMPTY
 thailand
 japan south-korea usa spain
 japan
@@ -7551,9 +7551,9 @@ philippines
 philippines
 philippines usa
 west-germany
-
+EMPTY
 west-germany
-
+EMPTY
 belgium usa japan brazil south-korea
 uk
 netherlands
@@ -7561,7 +7561,7 @@ sweden denmark norway usa
 finland
 uk
 usa
-
+EMPTY
 india
 japan brazil mexico philippines indonesia usa
 japan
@@ -7571,23 +7571,23 @@ west-germany
 uk
 france
 hong-kong
-
+EMPTY
 uk
 south-africa
 uk
 netherlands usa china hong-kong japan
 uk
 uk
-
+EMPTY
 west-germany brazil
 uk
 uk
 denmark
 switzerland
-
+EMPTY
 uk
 brazil venezuela peru mexico colombia argentina costa-rica bolivia ecuador
-
+EMPTY
 canada
 bolivia
 netherlands
@@ -7604,7 +7604,7 @@ uk
 netherlands france
 switzerland
 italy
-
+EMPTY
 usa iran nicaragua
 west-germany
 usa
@@ -7634,11 +7634,11 @@ usa ussr
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 canada
 india australia
-
+EMPTY
 finland sweden
 switzerland west-germany
 usa
@@ -7650,14 +7650,14 @@ canada
 usa
 usa
 uk
-
+EMPTY
 canada
 usa
 canada
 usa
 zambia
 usa
-
+EMPTY
 yugoslavia
 australia
 poland
@@ -7665,7 +7665,7 @@ usa
 usa
 usa
 china portugal
-
+EMPTY
 usa brazil
 usa
 usa
@@ -7685,11 +7685,11 @@ canada
 canada
 west-germany
 usa
-
+EMPTY
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -7715,9 +7715,9 @@ usa
 usa
 usa
 usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
 usa
@@ -7735,12 +7735,12 @@ usa
 usa
 canada
 canada
-
+EMPTY
 usa
 usa
 usa
 usa
-
+EMPTY
 italy
 usa
 usa
@@ -7748,7 +7748,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -7761,7 +7761,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 japan uk usa
 usa
 west-germany
@@ -7769,8 +7769,8 @@ usa
 usa
 usa
 belgium usa netherlands
-
-
+EMPTY
+EMPTY
 usa
 canada
 usa
@@ -7781,9 +7781,9 @@ usa
 usa
 usa
 usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
 yugoslavia
 usa
@@ -7792,19 +7792,19 @@ usa
 usa
 usa
 chad libya france
-
+EMPTY
 usa
 switzerland
-
+EMPTY
 usa
 usa
 usa
 usa france west-germany spain uk
 usa
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
 uk
 usa
@@ -7816,7 +7816,7 @@ usa
 usa
 usa
 canada
-
+EMPTY
 usa
 usa
 usa
@@ -7825,7 +7825,7 @@ usa
 belgium
 canada
 usa
-
+EMPTY
 uk
 usa
 usa
@@ -7854,13 +7854,13 @@ usa
 usa
 usa
 usa
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa
@@ -7875,11 +7875,11 @@ usa
 usa
 usa
 bolivia
-
+EMPTY
 canada
 usa
-
-
+EMPTY
+EMPTY
 canada
 canada
 usa
@@ -7906,27 +7906,27 @@ ussr france
 usa netherlands
 usa japan
 usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
 usa
-
+EMPTY
 usa
 usa peru
 canada
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -7940,7 +7940,7 @@ usa
 usa
 canada
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -7966,7 +7966,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 belgium west-germany
@@ -7975,7 +7975,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -7986,7 +7986,7 @@ canada
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -7999,7 +7999,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 canada
@@ -8008,7 +8008,7 @@ usa
 usa
 canada
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -8117,10 +8117,10 @@ china portugal
 australia
 usa brazil
 singapore
-
+EMPTY
 usa brazil
 israel lebanon
-
+EMPTY
 taiwan china
 australia
 australia
@@ -8141,7 +8141,7 @@ japan
 japan
 uae
 japan china
-
+EMPTY
 west-germany
 uk
 uk
@@ -8157,12 +8157,12 @@ philippines new-zealand
 somalia
 burma
 uk india
-
+EMPTY
 china
 australia
 uk
 bangladesh
-
+EMPTY
 uk france italy west-germany spain
 iran iraq
 france
@@ -8177,7 +8177,7 @@ france
 west-germany
 uk
 australia
-
+EMPTY
 philippines
 uk
 west-germany brazil
@@ -8238,19 +8238,19 @@ usa
 usa
 uk nigeria
 new-zealand nigeria
-
+EMPTY
 china portugal taiwan
 usa
 japan usa new-zealand
-
-
+EMPTY
+EMPTY
 uk
 usa
 usa
 usa
 usa
 japan usa
-
+EMPTY
 canada
 usa
 cuba spain
@@ -8260,7 +8260,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 canada
@@ -8276,7 +8276,7 @@ usa
 usa
 usa
 uk iran
-
+EMPTY
 usa
 usa
 usa
@@ -8299,10 +8299,10 @@ usa
 usa
 usa
 canada
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 uk greece
 japan
 belgium
@@ -8318,12 +8318,12 @@ usa
 canada
 netherlands
 usa
-
+EMPTY
 usa
 belgium
 usa
 usa argentina
-
+EMPTY
 usa
 canada
 usa
@@ -8340,12 +8340,12 @@ canada
 usa
 usa
 west-germany
-
-
+EMPTY
+EMPTY
 usa
 usa
 sweden
-
+EMPTY
 usa
 usa
 usa
@@ -8354,7 +8354,7 @@ usa
 peru
 usa
 finland
-
+EMPTY
 usa
 netherlands usa
 france
@@ -8365,7 +8365,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -8379,12 +8379,12 @@ usa
 lebanon usa
 usa
 usa
-
+EMPTY
 west-germany
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
 usa
 yugoslavia
@@ -8398,7 +8398,7 @@ usa
 usa
 usa
 portugal
-
+EMPTY
 iraq
 usa canada
 canada
@@ -8430,7 +8430,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -8440,7 +8440,7 @@ usa
 iran iraq
 usa
 usa
-
+EMPTY
 west-germany
 uk ussr
 belgium usa spain
@@ -8461,7 +8461,7 @@ usa
 switzerland usa philippines
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -8483,7 +8483,7 @@ canada
 usa brazil
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -8505,7 +8505,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 yugoslavia
@@ -8521,7 +8521,7 @@ usa
 usa
 usa
 canada
-
+EMPTY
 usa
 usa
 usa
@@ -8533,8 +8533,8 @@ usa
 usa
 usa
 usa ussr
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa
@@ -8581,13 +8581,13 @@ usa
 usa
 usa
 west-germany
-
+EMPTY
 uk
-
-
+EMPTY
+EMPTY
 japan france japan usa uk canada west-germany
 bolivia
-
+EMPTY
 japan
 new-zealand
 usa
@@ -8602,22 +8602,22 @@ japan
 usa japan
 thailand
 uk australia bangladesh
-
+EMPTY
 indonesia
 japan
 usa japan new-zealand
-
+EMPTY
 kuwait
 uk
-
+EMPTY
 china
 uk
 australia
-
-
+EMPTY
+EMPTY
 uk
 australia
-
+EMPTY
 japan usa
 uk luxembourg
 australia
@@ -8640,10 +8640,10 @@ uk barbados
 india
 japan usa
 uk
-
+EMPTY
 uk
 china
-
+EMPTY
 japan hungary
 france
 south-africa
@@ -8662,7 +8662,7 @@ uk
 new-zealand usa
 japan usa
 japan
-
+EMPTY
 japan usa
 new-zealand canada
 uk
@@ -8670,7 +8670,7 @@ philippines
 japan
 japan
 kuwait
-
+EMPTY
 japan usa
 usa kuwait iran
 new-zealand usa japan
@@ -8698,7 +8698,7 @@ uk
 uk
 taiwan usa
 switzerland usa
-
+EMPTY
 uk
 indonesia
 usa
@@ -8706,7 +8706,7 @@ usa
 usa
 uk
 usa
-
+EMPTY
 japan
 usa
 usa
@@ -8755,11 +8755,11 @@ switzerland
 norway
 usa australia
 south-africa
-
+EMPTY
 usa
 uk
 sweden
-
+EMPTY
 brazil
 indonesia
 usa
@@ -8776,7 +8776,7 @@ switzerland usa
 usa
 uk
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -8787,7 +8787,7 @@ usa
 finland
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -8798,8 +8798,8 @@ usa
 usa
 usa
 belgium
-
-
+EMPTY
+EMPTY
 uk
 usa
 usa
@@ -8809,17 +8809,17 @@ usa
 usa
 usa
 west-germany east-germany
-
+EMPTY
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
 uk south-africa
 uk
 usa
-
+EMPTY
 usa
 usa
 finland luxembourg
@@ -8830,7 +8830,7 @@ norway
 usa france
 uk west-germany
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -8839,12 +8839,12 @@ usa
 usa japan
 italy
 italy usa
-
+EMPTY
 uk
 uk
 usa
 usa
-
+EMPTY
 usa
 usa
 uk ghana
@@ -8867,7 +8867,7 @@ usa
 uk
 usa
 usa
-
+EMPTY
 france
 usa
 usa
@@ -8875,7 +8875,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 canada
 uk nigeria
@@ -8908,14 +8908,14 @@ usa
 usa
 canada
 usa
-
+EMPTY
 usa
 usa
 usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -8928,18 +8928,18 @@ usa
 usa
 france
 usa
-
+EMPTY
 usa
 uk
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -8949,7 +8949,7 @@ canada
 usa
 brazil
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -8961,7 +8961,7 @@ usa
 uk
 usa
 usa mexico brazil argentina venezuela
-
+EMPTY
 usa
 usa
 usa
@@ -8980,9 +8980,9 @@ usa
 uk south-africa
 usa
 usa ussr
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
 usa
@@ -9001,13 +9001,13 @@ usa
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa taiwan japan south-korea
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -9025,7 +9025,7 @@ usa
 usa
 usa
 usa canada
-
+EMPTY
 canada
 usa
 usa
@@ -9036,9 +9036,9 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -9051,7 +9051,7 @@ usa
 brazil usa
 usa
 usa
-
+EMPTY
 usa japan
 usa
 usa
@@ -9070,14 +9070,14 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa canada
 trinidad-tobago
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -9115,7 +9115,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa brazil
 japan
 usa brazil
@@ -9125,16 +9125,16 @@ japan
 india
 australia
 australia
-
+EMPTY
 japan
 australia
-
-
+EMPTY
+EMPTY
 thailand
 japan
 new-zealand
 japan
-
+EMPTY
 japan
 hong-kong
 china
@@ -9145,21 +9145,21 @@ china
 china usa
 japan
 usa japan
-
+EMPTY
 japan
 singapore
 netherlands
-
+EMPTY
 vietnam
 belgium uk west-germany usa japan
 madagascar
 belgium
 philippines hong-kong
 hong-kong
-
+EMPTY
 uk
 hong-kong
-
+EMPTY
 sri-lanka
 netherlands
 denmark
@@ -9240,7 +9240,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 uk usa
 japan
 usa
@@ -9261,7 +9261,7 @@ canada
 uk
 usa
 canada
-
+EMPTY
 west-germany
 usa
 usa
@@ -9279,7 +9279,7 @@ usa
 norway
 usa
 west-germany
-
+EMPTY
 uk canada
 usa
 usa
@@ -9301,11 +9301,11 @@ hong-kong
 usa
 west-germany
 usa
-
+EMPTY
 uk
 usa
 netherlands
-
+EMPTY
 usa
 south-africa
 usa
@@ -9314,7 +9314,7 @@ usa
 brazil
 usa
 usa
-
+EMPTY
 usa
 uk
 uk
@@ -9354,7 +9354,7 @@ uk
 usa
 usa
 argentina
-
+EMPTY
 usa
 uk
 france
@@ -9374,7 +9374,7 @@ usa
 usa turkey
 usa
 usa
-
+EMPTY
 usa
 usa
 switzerland
@@ -9394,7 +9394,7 @@ uk thailand
 uk
 usa
 canada singapore philippines indonesia thailand brunei
-
+EMPTY
 usa china
 usa
 italy
@@ -9406,33 +9406,33 @@ usa
 usa
 uk
 uk
-
+EMPTY
 usa
 usa
-
+EMPTY
 usa
 usa
 usa japan
 usa
 usa
 canada
-
+EMPTY
 usa
 usa
 usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
-
+EMPTY
 usa
 canada
 luxembourg
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -9454,19 +9454,19 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
-
+EMPTY
 usa
-
+EMPTY
 brazil
 usa
 uk
 usa
 usa
-
+EMPTY
 usa
 italy
 usa
@@ -9490,13 +9490,13 @@ usa
 usa
 usa
 usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
 usa
-
+EMPTY
 usa uk
 usa
 usa
@@ -9531,7 +9531,7 @@ usa
 usa
 usa canada
 usa
-
+EMPTY
 west-germany japan usa
 usa
 usa
@@ -9562,7 +9562,7 @@ usa south-africa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -9571,8 +9571,8 @@ usa switzerland
 usa
 uk
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa
@@ -9583,7 +9583,7 @@ usa
 usa
 ecuador
 usa
-
+EMPTY
 usa
 usa
 canada
@@ -9592,12 +9592,12 @@ usa bolivia
 usa brazil
 usa
 usa
-
+EMPTY
 usa
-
-
+EMPTY
+EMPTY
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -9611,28 +9611,28 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa japan
 usa japan
 usa bolivia
 venezuela
-
+EMPTY
 usa
 usa
-
+EMPTY
 usa argentina brazil mexico venezuela
 usa
 usa
@@ -9683,7 +9683,7 @@ usa
 brazil
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -9695,8 +9695,8 @@ usa
 usa chad libya france
 china portugal hong-kong
 usa
-
-
+EMPTY
+EMPTY
 new-zealand
 japan
 japan usa west-germany
@@ -9720,21 +9720,21 @@ sri-lanka
 japan
 usa south-africa philippines el-salvador honduras guatemala costa-rica
 japan
-
+EMPTY
 australia
 japan usa
 japan
-
+EMPTY
 west-germany
 west-germany
 france
-
+EMPTY
 china
 uk
 west-germany
-
+EMPTY
 australia
-
+EMPTY
 india
 west-germany
 uk
@@ -9744,13 +9744,13 @@ switzerland
 france
 uk
 belgium
-
-
+EMPTY
+EMPTY
 west-germany
 france
 australia
 taiwan
-
+EMPTY
 japan usa
 japan
 uk
@@ -9764,13 +9764,13 @@ west-germany
 japan usa uk west-germany france canada
 austria
 france
-
-
+EMPTY
+EMPTY
 malaysia
 uk
 uk
-
-
+EMPTY
+EMPTY
 switzerland
 france
 libya chad usa
@@ -9802,7 +9802,7 @@ usa kuwait
 austria
 usa
 usa brazil
-
+EMPTY
 usa
 usa
 usa
@@ -9812,7 +9812,7 @@ usa
 france
 usa
 uk
-
+EMPTY
 usa
 usa
 usa
@@ -9820,21 +9820,21 @@ west-germany
 usa
 uk
 france
-
+EMPTY
 west-germany
 canada
 usa mexico
 usa
 france
 west-germany
-
+EMPTY
 belgium turkey
-
+EMPTY
 usa
 usa
 uk mexico usa
 hong-kong
-
+EMPTY
 belgium
 usa
 usa
@@ -9848,18 +9848,18 @@ uk japan
 uk
 usa south-korea
 usa
-
-
+EMPTY
+EMPTY
 west-germany
 usa
 uk
 sweden
-
+EMPTY
 usa
 canada
 usa
 usa
-
+EMPTY
 tunisia iran
 usa
 france
@@ -9931,31 +9931,31 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa uk sweden
 usa
 usa
 usa
-
+EMPTY
 usa
 uk libya
-
+EMPTY
 usa
 usa
 usa
 france
 usa uk
-
+EMPTY
 usa
 usa
 usa
 canada
 uk belgium
 west-germany france usa
-
+EMPTY
 usa
 usa japan west-germany taiwan south-korea
-
+EMPTY
 usa
 usa
 usa
@@ -9969,7 +9969,7 @@ usa
 brazil
 usa
 usa
-
+EMPTY
 usa
 west-germany
 west-germany
@@ -9985,7 +9985,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa canada
 usa
 usa
@@ -10007,11 +10007,11 @@ usa
 usa
 usa
 usa
-
+EMPTY
 canada
 usa
 uk
-
+EMPTY
 belgium
 uk
 usa
@@ -10026,13 +10026,13 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
-
+EMPTY
 usa
-
+EMPTY
 poland
 usa
 usa
@@ -10044,10 +10044,10 @@ taiwan south-korea japan china uk
 usa
 usa
 australia
-
+EMPTY
 uk france
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -10057,26 +10057,26 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
-
+EMPTY
 usa
 brazil
 usa
-
+EMPTY
 usa
 usa west-germany japan
 usa
@@ -10101,7 +10101,7 @@ colombia brazil usa
 usa japan
 usa
 canada brazil usa
-
+EMPTY
 usa
 usa
 ussr usa
@@ -10134,14 +10134,14 @@ uk
 bolivia
 italy
 usa
-
+EMPTY
 usa
 italy
 usa
 usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
 usa
@@ -10150,8 +10150,8 @@ usa
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa
@@ -10173,9 +10173,9 @@ usa ussr
 usa
 usa
 usa ussr taiwan china japan netherlands mexico portugal canada dominican-republic panama turkey thailand uk south-korea venezuela israel cyprus saudi-arabia
-
-
-
+EMPTY
+EMPTY
+EMPTY
 costa-rica
 usa
 usa
@@ -10212,7 +10212,7 @@ usa
 usa
 usa
 canada
-
+EMPTY
 canada
 usa
 usa
@@ -10228,7 +10228,7 @@ usa
 usa
 usa
 usa ussr
-
+EMPTY
 usa canada
 usa
 usa
@@ -10257,10 +10257,10 @@ bolivia usa
 new-zealand
 usa
 japan
-
+EMPTY
 japan
 new-zealand
-
+EMPTY
 usa japan
 usa japan
 mexico uk
@@ -10273,14 +10273,14 @@ australia
 usa
 japan
 japan usa
-
-
+EMPTY
+EMPTY
 japan
 japan
 hong-kong
-
+EMPTY
 hong-kong
-
+EMPTY
 australia
 japan
 japan
@@ -10291,8 +10291,8 @@ australia
 hong-kong
 australia
 japan
-
-
+EMPTY
+EMPTY
 australia
 japan
 japan
@@ -10320,7 +10320,7 @@ usa taiwan
 hong-kong
 uk
 japan
-
+EMPTY
 japan
 japan
 taiwan
@@ -10334,7 +10334,7 @@ hong-kong
 botswana zimbabwe
 australia
 uk
-
+EMPTY
 france
 south-africa
 italy
@@ -10359,15 +10359,15 @@ france
 west-germany
 japan
 new-zealand
-
+EMPTY
 norway
 japan
 uk
 new-zealand
 uk ussr
-
+EMPTY
 netherlands
-
+EMPTY
 belgium
 south-africa
 belgium
@@ -10381,24 +10381,24 @@ india usa
 usa
 switzerland
 west-germany
-
+EMPTY
 usa
-
+EMPTY
 canada
 usa
 japan
-
+EMPTY
 uk
 japan
 usa
 ivory-coast
 greece turkey
 switzerland
-
+EMPTY
 west-germany usa
-
+EMPTY
 usa
-
+EMPTY
 usa
 uk
 usa
@@ -10409,10 +10409,10 @@ venezuela
 hong-kong
 denmark
 usa
-
+EMPTY
 usa
 usa
-
+EMPTY
 uk
 france madagascar
 austria
@@ -10421,7 +10421,7 @@ usa
 usa
 uk
 canada australia
-
+EMPTY
 usa
 uk
 usa
@@ -10440,7 +10440,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa algeria
 usa
 usa
@@ -10460,7 +10460,7 @@ usa
 usa
 uk
 usa
-
+EMPTY
 usa
 canada
 uk
@@ -10468,7 +10468,7 @@ usa australia
 usa
 usa
 canada
-
+EMPTY
 usa
 usa
 netherlands
@@ -10485,14 +10485,14 @@ usa
 usa
 ireland
 usa
-
+EMPTY
 france greece
 usa
-
+EMPTY
 usa
 usa
 china usa
-
+EMPTY
 usa
 usa
 usa
@@ -10533,7 +10533,7 @@ usa
 usa
 usa
 uk sweden
-
+EMPTY
 usa
 usa
 belgium greece turkey
@@ -10573,7 +10573,7 @@ usa
 usa
 usa
 chad
-
+EMPTY
 usa
 usa
 france
@@ -10582,9 +10582,9 @@ usa taiwan
 usa
 usa
 uk malaysia brazil cameroon ghana ivory-coast togo
-
+EMPTY
 uk
-
+EMPTY
 usa greece turkey
 uk usa
 uk
@@ -10647,15 +10647,15 @@ south-africa
 iran iraq
 west-germany
 turkey
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 japan
-
+EMPTY
 new-zealand
-
-
+EMPTY
+EMPTY
 japan
 japan
 japan
@@ -10676,20 +10676,20 @@ usa japan
 usa
 japan
 japan
-
+EMPTY
 japan
-
+EMPTY
 usa
 japan
 japan uk usa france canada west-germany
-
+EMPTY
 japan
 australia
 west-germany
 japan usa
 japan
 hong-kong south-korea
-
+EMPTY
 indonesia
 uk
 usa japan
@@ -10704,7 +10704,7 @@ west-germany
 bahrain
 japan brazil
 australia
-
+EMPTY
 netherlands
 singapore
 uk
@@ -10728,7 +10728,7 @@ uae
 france
 sri-lanka
 finland
-
+EMPTY
 uk
 philippines
 australia
@@ -10811,8 +10811,8 @@ uk
 peru
 uk
 usa
-
-
+EMPTY
+EMPTY
 canada
 usa
 usa
@@ -10820,7 +10820,7 @@ usa
 usa
 philippines
 usa
-
+EMPTY
 usa
 yugoslavia
 usa
@@ -10834,14 +10834,14 @@ usa
 usa
 cyprus china
 canada
-
+EMPTY
 usa
 usa
 usa
 usa
 usa
 usa
-
+EMPTY
 mexico
 uk
 usa
@@ -10854,9 +10854,9 @@ usa
 uk
 usa
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
 uk
 turkey greece
@@ -10868,7 +10868,7 @@ canada usa
 canada
 usa
 usa
-
+EMPTY
 usa
 mexico
 usa
@@ -10878,7 +10878,7 @@ usa
 usa
 usa
 uk austria
-
+EMPTY
 usa
 usa
 usa
@@ -10900,7 +10900,7 @@ usa
 usa
 sweden singapore
 uk usa brazil
-
+EMPTY
 usa
 usa japan
 uk finland
@@ -10954,7 +10954,7 @@ usa
 usa
 usa
 france
-
+EMPTY
 usa
 brazil
 usa
@@ -11003,7 +11003,7 @@ usa
 usa
 usa
 usa india
-
+EMPTY
 usa
 usa
 usa
@@ -11063,20 +11063,20 @@ usa south-africa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
-
+EMPTY
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
 usa japan
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -11136,8 +11136,8 @@ brazil
 usa
 new-zealand
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa
@@ -11159,7 +11159,7 @@ usa
 japan
 japan
 usa
-
+EMPTY
 japan
 japan
 taiwan
@@ -11283,16 +11283,16 @@ usa
 usa
 uk
 japan uk
-
+EMPTY
 usa japan uk
-
-
-
+EMPTY
+EMPTY
+EMPTY
 austria
 italy
-
+EMPTY
 uk
-
+EMPTY
 usa
 usa
 usa
@@ -11350,7 +11350,7 @@ usa
 usa
 nigeria
 china ussr
-
+EMPTY
 usa
 usa
 usa
@@ -11381,7 +11381,7 @@ usa ussr
 usa
 usa
 usa
-
+EMPTY
 canada
 usa
 france
@@ -11391,7 +11391,7 @@ usa japan
 netherlands
 usa yugoslavia
 usa
-
+EMPTY
 usa
 usa
 japan usa
@@ -11414,12 +11414,12 @@ france
 canada
 france tunisia
 usa
-
+EMPTY
 usa
 usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
 brazil
 usa
 usa
@@ -11466,7 +11466,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -11485,20 +11485,20 @@ usa
 usa
 yugoslavia
 usa france
-
+EMPTY
 usa
 canada
 usa
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
 uk usa japan
 usa
 usa
-
+EMPTY
 usa
 canada
 usa
@@ -11508,9 +11508,9 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -11534,7 +11534,7 @@ usa
 usa
 venezuela
 usa china
-
+EMPTY
 usa
 usa
 usa
@@ -11551,7 +11551,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa japan
 usa
 netherlands south-africa
@@ -11570,7 +11570,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -11581,7 +11581,7 @@ usa japan
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -11592,8 +11592,8 @@ yugoslavia
 belgium west-germany netherlands
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa
@@ -11604,16 +11604,16 @@ usa
 usa
 brazil
 usa
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -11657,15 +11657,15 @@ usa
 usa west-germany
 usa
 usa
-
+EMPTY
 usa
-
-usa
-usa
+EMPTY
 usa
 usa
 usa
-
+usa
+usa
+EMPTY
 usa
 usa
 usa ecuador
@@ -11679,33 +11679,27 @@ usa yugoslavia
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
-
+EMPTY
 usa
 canada
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa honduras
 usa
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
-
-
-usa
-usa
-canada
-usa
-usa
-usa
+EMPTY
+EMPTY
 usa
 usa
 canada
@@ -11713,7 +11707,13 @@ usa
 usa
 usa
 usa
-
+usa
+canada
+usa
+usa
+usa
+usa
+EMPTY
 usa
 usa
 usa
@@ -11728,7 +11728,7 @@ usa
 usa
 usa egypt
 usa
-
+EMPTY
 usa uk france italy canada west-germany japan
 usa
 usa
@@ -11759,9 +11759,9 @@ usa
 usa
 usa
 usa brazil
-
+EMPTY
 usa
-
+EMPTY
 australia
 brazil
 australia
@@ -11769,7 +11769,7 @@ china
 china
 usa iran
 taiwan
-
+EMPTY
 west-germany
 japan
 malaysia
@@ -11853,7 +11853,7 @@ uk
 japan switzerland
 sweden portugal
 uk
-
+EMPTY
 west-germany usa saudi-arabia
 ireland
 uk
@@ -11868,12 +11868,12 @@ usa
 italy
 west-germany canada
 west-germany
-
+EMPTY
 uk usa
 usa
 uk usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -11900,9 +11900,9 @@ usa
 west-germany
 uk usa
 netherlands
-
+EMPTY
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -11935,7 +11935,7 @@ usa
 canada
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -11944,7 +11944,7 @@ usa
 turkey
 usa
 usa
-
+EMPTY
 france
 kenya
 usa
@@ -12005,7 +12005,7 @@ usa
 usa
 uk
 usa
-
+EMPTY
 usa ussr
 usa
 uk brazil guatemala colombia
@@ -12015,8 +12015,8 @@ usa
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 canada
 usa
 usa
@@ -12029,7 +12029,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -12062,13 +12062,13 @@ usa
 usa netherlands west-germany
 usa
 usa
-
+EMPTY
 uk usa
 usa
 usa uk
 canada
 usa brazil
-
+EMPTY
 uk usa
 usa
 usa
@@ -12093,7 +12093,7 @@ usa brazil
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -12121,7 +12121,7 @@ usa
 uk
 venezuela
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -12136,7 +12136,7 @@ uk
 usa
 usa
 canada
-
+EMPTY
 usa
 usa
 usa
@@ -12174,7 +12174,7 @@ usa
 uk
 usa
 usa
-
+EMPTY
 usa france
 usa
 australia
@@ -12231,7 +12231,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa brazil
 usa
@@ -12264,7 +12264,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 uk south-korea brazil
@@ -12282,7 +12282,7 @@ usa uk
 usa
 brazil
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -12290,7 +12290,7 @@ usa
 usa
 usa
 usa brazil
-
+EMPTY
 usa
 usa
 canada
@@ -12305,7 +12305,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa japan china argentina south-africa
@@ -12405,10 +12405,10 @@ japan
 philippines indonesia
 uk
 west-germany
-
+EMPTY
 japan uk
 france
-
+EMPTY
 uk
 uk
 west-germany ussr
@@ -12418,7 +12418,7 @@ belgium usa spain
 uk
 denmark
 australia
-
+EMPTY
 japan
 belgium
 kenya
@@ -12445,14 +12445,14 @@ france
 uk
 uk
 uk
-
+EMPTY
 uk
 west-germany
 uk
 hong-kong
 uk
 uk japan
-
+EMPTY
 west-germany
 usa japan
 france china
@@ -12471,8 +12471,8 @@ japan
 west-germany
 japan usa
 usa japan
-
-
+EMPTY
+EMPTY
 west-germany
 france
 uk japan
@@ -12490,7 +12490,7 @@ canada
 uk costa-rica dominican-republic el-salvador ecuador honduras guatemala india nicaragua mexico papua-new-guinea peru brazil colombia
 switzerland
 usa
-
+EMPTY
 uk
 france
 usa
@@ -12505,10 +12505,10 @@ usa south-africa
 canada
 usa
 usa
-
+EMPTY
 usa
 uk
-
+EMPTY
 canada usa
 japan
 usa
@@ -12527,7 +12527,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 spain
@@ -12539,14 +12539,14 @@ usa
 usa
 usa
 switzerland
-
+EMPTY
 france colombia
 usa
-
+EMPTY
 zimbabwe
-
+EMPTY
 usa
-
+EMPTY
 usa
 usa
 belgium ussr
@@ -12574,7 +12574,7 @@ canada
 usa
 usa
 spain
-
+EMPTY
 usa
 usa
 usa
@@ -12585,12 +12585,12 @@ france
 uk pakistan
 usa
 usa
-
+EMPTY
 usa
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
 brazil iraq
 usa
@@ -12790,10 +12790,10 @@ uk
 france
 west-germany usa
 japan usa
-
+EMPTY
 ussr usa
 japan
-
+EMPTY
 australia
 south-korea
 west-germany
@@ -12836,7 +12836,7 @@ philippines
 netherlands usa
 hong-kong japan
 uk usa
-
+EMPTY
 uk
 belgium
 west-germany usa japan
@@ -12915,7 +12915,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 france
@@ -12947,7 +12947,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 italy
 usa
@@ -12957,7 +12957,7 @@ usa
 usa
 usa
 canada finland
-
+EMPTY
 finland
 usa
 canada
@@ -12969,7 +12969,7 @@ usa panama
 usa
 finland
 uk
-
+EMPTY
 usa
 usa
 usa
@@ -13025,8 +13025,8 @@ usa
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa
@@ -13099,7 +13099,7 @@ usa
 usa colombia
 usa
 usa
-
+EMPTY
 usa
 usa
 canada
@@ -13150,12 +13150,12 @@ usa
 usa
 usa
 usa
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
-
+EMPTY
 usa
 usa
 canada
@@ -13224,10 +13224,10 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
-
+EMPTY
 hong-kong
 south-korea
 usa
@@ -13264,8 +13264,8 @@ usa
 new-zealand
 australia
 france
-
-
+EMPTY
+EMPTY
 philippines
 japan
 cameroon
@@ -13290,803 +13290,803 @@ japan
 indonesia
 france
 luxembourg
-
+EMPTY
 thailand
 usa japan
-
-
+EMPTY
+EMPTY
 new-zealand
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 japan usa
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 china
-
+EMPTY
 japan
-
-
+EMPTY
+EMPTY
 japan
-
+EMPTY
 usa kuwait ussr
 australia
-
+EMPTY
 japan
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 japan
-
-
-
+EMPTY
+EMPTY
+EMPTY
 japan
 switzerland
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 iran iraq uk
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 uk
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 japan
-
+EMPTY
 japan
-
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 uk
-
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 west-germany
-
-
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 japan
 uk
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 france
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 france egypt
 bahrain
 bangladesh nepal
 uk
-
+EMPTY
 singapore
-
-
+EMPTY
+EMPTY
 ussr
-
-
+EMPTY
+EMPTY
 west-germany
 uk malaysia brazil ghana
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 west-germany
-
+EMPTY
 saudi-arabia
 west-germany
 hong-kong
 uk
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 france
-
+EMPTY
 uk
 taiwan
-
+EMPTY
 hong-kong japan
-
-
-
+EMPTY
+EMPTY
+EMPTY
 france
-
-
-
+EMPTY
+EMPTY
+EMPTY
 thailand japan canada
-
+EMPTY
 greece
-
-
-
+EMPTY
+EMPTY
+EMPTY
 uk luxembourg
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 greece ussr
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 west-germany
-
-
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 japan
-
-
+EMPTY
+EMPTY
 iran iraq
-
+EMPTY
 iraq iran
 japan
 west-germany usa
 australia
-
+EMPTY
 uk
 france
-
+EMPTY
 greece
-
+EMPTY
 west-germany
 japan usa
 japan
 usa kuwait ussr
 australia
 japan
-
+EMPTY
 japan usa
-
+EMPTY
 italy
-
-
-
+EMPTY
+EMPTY
+EMPTY
 japan
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 luxembourg
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 france
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 italy
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 uk
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 denmark
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 west-germany
-
+EMPTY
 usa peru
 usa
-
+EMPTY
 usa
 usa
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 japan
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 uk
-
+EMPTY
 west-germany usa uk japan
-
+EMPTY
 usa
-
+EMPTY
 uk
-
-
-
+EMPTY
+EMPTY
+EMPTY
 japan
-
-
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 uk japan
-
-
+EMPTY
+EMPTY
 west-germany
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
 usa japan west-germany uk uk canada
-
+EMPTY
 usa
 egypt
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 iran iraq
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 italy
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 brazil
 italy
 south-africa
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
-
-
-
-
-
-
-
-usa
-usa
-usa
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
 usa
-usa
-
-usa
-
+EMPTY
 usa
 usa
 usa
-
 usa
-
-
-
+EMPTY
 usa
-
-
-
-
-
-
-
+EMPTY
+usa
+usa
+usa
+EMPTY
+usa
+EMPTY
+EMPTY
+EMPTY
+usa
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 uk
-
+EMPTY
 uk
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
-
-
+EMPTY
+EMPTY
 west-germany malaysia indonesia
 uk
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 spain greece
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 spain
 canada norway
-
-
-
+EMPTY
+EMPTY
+EMPTY
 canada
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
 usa
-
+EMPTY
 usa
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 canada
-
-
+EMPTY
+EMPTY
 usa
 south-africa
-
-
+EMPTY
+EMPTY
 usa
 spain saudi-arabia
 usa
 usa
 france
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
 uk colombia japan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 brazil
 uk
 usa
-
-
+EMPTY
+EMPTY
 brazil
-
-
-
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa netherlands
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
-
+EMPTY
 usa
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 uk
-
+EMPTY
 brazil
 canada
-
+EMPTY
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
-
-
+EMPTY
+EMPTY
 netherlands
-
-
-
+EMPTY
+EMPTY
+EMPTY
 uk belgium
 south-africa
-
+EMPTY
 usa
 usa
 usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
 switzerland usa japan
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
-
+EMPTY
 usa
 usa china
-
-
-
+EMPTY
+EMPTY
+EMPTY
 turkey
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa brazil
 usa
-
+EMPTY
 west-germany
 usa
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 italy canada japan usa uk france west-germany
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa kuwait uk uk china iran iraq
-
-
+EMPTY
+EMPTY
 uk
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
-
-
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
-
+EMPTY
 uk
 uk portugal
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 sweden usa
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
-
-
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 uk
 usa
 usa
 usa
 canada
 usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
-
-
+EMPTY
+EMPTY
 canada
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
 ivory-coast
-
+EMPTY
 usa
 usa
 usa
@@ -14094,170 +14094,170 @@ usa
 usa
 usa
 usa
-
+EMPTY
 australia uk
 usa
 sweden
-
-
+EMPTY
+EMPTY
 usa
-
-
+EMPTY
+EMPTY
 sweden
-
-
+EMPTY
+EMPTY
 west-germany
-
+EMPTY
 uk
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 belgium uk
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 uk
 usa
-
+EMPTY
 usa
-
-
+EMPTY
+EMPTY
 uk malta
 usa
 usa
 switzerland
-
+EMPTY
 canada
-
+EMPTY
 usa
 usa
-
+EMPTY
 usa
-
-
-
-
-
-
-
-canada
-usa
-usa
-
-usa
-
-
-
-
-usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 canada
 usa
-
 usa
-
-
-
+EMPTY
 usa
-
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
+canada
+usa
+EMPTY
+usa
+EMPTY
+EMPTY
+EMPTY
+usa
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+usa
+EMPTY
+EMPTY
+EMPTY
 usa japan
-
+EMPTY
 usa
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 netherlands
-
-
+EMPTY
+EMPTY
 usa
 usa kuwait iran iraq
 usa
 usa
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa japan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa uk
 usa
 usa
@@ -14265,273 +14265,273 @@ usa
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 netherlands
-
+EMPTY
 usa
 usa
 usa
 usa
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
-
+EMPTY
 usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
-
+EMPTY
 usa
-
-
+EMPTY
+EMPTY
 usa
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 canada
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa
 usa
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
-
-
+EMPTY
+EMPTY
 italy
 usa
-
-
+EMPTY
+EMPTY
 yugoslavia
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 ussr usa
-
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
-
-
+EMPTY
+EMPTY
 usa
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 japan
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
 canada
-
+EMPTY
 canada
-
+EMPTY
 usa
-
+EMPTY
 usa
 usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa canada
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
 france
-
-
-
+EMPTY
+EMPTY
+EMPTY
 cuba
 usa
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 peru
-
-
-
-
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
-
+EMPTY
 usa
 france canada
-
-
+EMPTY
+EMPTY
 usa
 usa iraq
-
+EMPTY
 usa
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa honduras
 brazil usa
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
-
+EMPTY
 usa
 usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
-
+EMPTY
 usa
-
-
+EMPTY
+EMPTY
 usa bangladesh
 usa
-
+EMPTY
 usa algeria
 usa
-
+EMPTY
 usa
 usa
 usa
-
+EMPTY
 usa
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
-
+EMPTY
 usa
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -14543,201 +14543,201 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
 usa
 usa
-
+EMPTY
 canada
 canada
-
+EMPTY
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
 usa
-
+EMPTY
 canada
-
-
+EMPTY
+EMPTY
 usa
-
-
+EMPTY
+EMPTY
 usa
-
+EMPTY
 iran iraq
 canada
 usa
 usa
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
-
-
+EMPTY
+EMPTY
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa canada
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
-
-
+EMPTY
+EMPTY
 usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
-
+EMPTY
 usa japan
 usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
-
-
-
-usa
-usa
-
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
-
+EMPTY
 usa
 usa
-
-
+EMPTY
 usa
 usa
-
-
-usa
-
-
+EMPTY
+EMPTY
 usa
 usa
+EMPTY
+EMPTY
 usa
-
+EMPTY
+EMPTY
 usa
-
+usa
+usa
+EMPTY
+usa
+EMPTY
 brazil usa
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 brazil
-
+EMPTY
 canada
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
-
-
+EMPTY
+EMPTY
 brazil
 usa
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
 usa
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
-
+EMPTY
 ussr
-
+EMPTY
 usa
 venezuela italy
-
+EMPTY
 usa
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
 usa brazil
 usa
-
-
+EMPTY
+EMPTY
 usa
-
-
-
-
-usa
-usa
-
-usa
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
+EMPTY
 usa
-
+EMPTY
 usa
-
-
+usa
+usa
+EMPTY
+usa
+EMPTY
+EMPTY
 usa egypt
 usa
 usa
 usa jordan
 usa morocco
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
 canada
 canada
 canada
 usa
 usa
-
-
+EMPTY
+EMPTY
 canada
 usa
 usa
 usa portugal
 canada usa
-
+EMPTY
 usa
 usa
 usa
@@ -14745,7 +14745,7 @@ usa
 usa
 japan
 japan
-
+EMPTY
 usa
 usa
 usa
@@ -14759,67 +14759,67 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa
 usa
 usa west-germany
 new-zealand
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 new-zealand
 japan
-
+EMPTY
 japan
-
-
-
+EMPTY
+EMPTY
+EMPTY
 japan
-
+EMPTY
 south-korea
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 japan
-
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 hong-kong
-
+EMPTY
 australia
 japan
 japan usa
-
-
+EMPTY
+EMPTY
 japan thailand
 yugoslavia
 france
@@ -14832,8 +14832,8 @@ new-zealand
 thailand
 indonesia malaysia
 usa japan
-
-
+EMPTY
+EMPTY
 usa
 usa
 australia
@@ -14845,20 +14845,20 @@ indonesia
 south-africa
 uk
 bangladesh
-
-
+EMPTY
+EMPTY
 bangladesh saudi-arabia
 netherlands
 philippines
 thailand
 china
-
+EMPTY
 uk
 japan
 usa japan brazil china australia
 australia
 uk
-
+EMPTY
 south-korea usa
 finland canada
 west-germany
@@ -14896,7 +14896,7 @@ japan
 switzerland
 uk
 switzerland
-
+EMPTY
 australia uk
 uk
 uk
@@ -14940,9 +14940,9 @@ iran iraq bahrain
 west-germany
 uk usa
 thailand brunei malaysia indonesia singapore philippines thailand
-
+EMPTY
 uk japan
-
+EMPTY
 usa
 usa
 usa
@@ -14955,14 +14955,14 @@ usa
 usa
 west-germany
 australia
-
+EMPTY
 netherlands
 usa
 usa
 usa
 usa
 uk
-
+EMPTY
 canada
 usa
 usa
@@ -14983,12 +14983,12 @@ usa
 usa
 usa brazil
 canada
-
+EMPTY
 usa west-germany
 uk france west-germany belgium spain denmark
-
+EMPTY
 canada
-
+EMPTY
 switzerland
 usa
 usa
@@ -15008,12 +15008,12 @@ usa
 usa
 usa
 canada
-
+EMPTY
 usa
 netherlands
 uk
 netherlands
-
+EMPTY
 belgium france west-germany spain denmark
 canada
 uk
@@ -15036,12 +15036,12 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 uk
 argentina
-
+EMPTY
 netherlands
 usa
 usa
@@ -15066,12 +15066,12 @@ usa
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
 japan
-
+EMPTY
 usa
 usa
 usa
@@ -15089,7 +15089,7 @@ usa
 usa uk japan switzerland australia hong-kong france canada west-germany netherlands
 usa
 canada
-
+EMPTY
 usa
 usa
 cameroon brazil ivory-coast ghana
@@ -15114,14 +15114,14 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
 usa italy
 usa
 usa
-
+EMPTY
 netherlands
 usa
 usa
@@ -15145,9 +15145,9 @@ canada
 usa
 canada
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
 canada
 canada
@@ -15169,7 +15169,7 @@ usa
 usa
 usa
 usa japan
-
+EMPTY
 usa
 uk
 canada
@@ -15182,7 +15182,7 @@ usa
 usa japan
 usa
 canada
-
+EMPTY
 usa ussr
 usa
 usa
@@ -15196,9 +15196,9 @@ usa
 usa
 usa
 colombia
-
+EMPTY
 turkey greece
-
+EMPTY
 usa
 cuba
 usa
@@ -15219,16 +15219,16 @@ usa
 uk
 pakistan
 usa
-
+EMPTY
 usa japan
 france
 usa
 usa
 usa brazil ecuador
 uk
-
+EMPTY
 iran iraq
-
+EMPTY
 usa
 usa
 usa
@@ -15239,27 +15239,27 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 uk ghana iran
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
-
+EMPTY
 usa canada france uk west-germany japan
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
 usa
 usa
-
+EMPTY
 usa
 canada
 usa
@@ -15282,7 +15282,7 @@ usa
 usa
 usa
 usa ussr
-
+EMPTY
 france
 usa south-korea china argentina south-africa
 usa
@@ -15299,7 +15299,7 @@ usa
 usa
 usa
 usa iran nicaragua
-
+EMPTY
 usa
 brazil
 usa
@@ -15316,7 +15316,7 @@ usa
 canada
 usa
 usa japan
-
+EMPTY
 usa
 usa
 usa
@@ -15336,7 +15336,7 @@ usa
 canada
 canada
 greece turkey
-
+EMPTY
 usa
 usa morocco
 usa
@@ -15367,7 +15367,7 @@ australia
 japan usa
 japan venezuela bahrain
 new-zealand
-
+EMPTY
 hong-kong australia
 japan usa uk
 japan
@@ -15376,11 +15376,11 @@ usa uk west-germany japan italy canada france
 japan usa
 uk
 france
-
+EMPTY
 uk
 australia
 china
-
+EMPTY
 west-germany
 uk
 ussr
@@ -15484,7 +15484,7 @@ usa japan
 usa
 usa
 usa japan
-
+EMPTY
 india
 usa
 usa
@@ -15499,7 +15499,7 @@ usa
 usa
 argentina
 usa
-
+EMPTY
 japan
 argentina
 switzerland west-germany
@@ -15519,7 +15519,7 @@ uk
 usa
 usa
 usa
-
+EMPTY
 uk
 usa
 china
@@ -15532,16 +15532,16 @@ uk
 usa
 usa
 belgium
-
+EMPTY
 brazil
 usa
 usa
 west-germany
 brazil
 uk
-
+EMPTY
 sri-lanka
-
+EMPTY
 italy
 usa
 west-germany
@@ -15563,7 +15563,7 @@ usa west-germany
 usa
 france
 usa
-
+EMPTY
 india
 usa
 usa
@@ -15580,7 +15580,7 @@ usa
 argentina
 west-germany
 usa yugoslavia
-
+EMPTY
 kenya
 usa
 usa
@@ -15603,7 +15603,7 @@ usa
 uk
 usa
 usa
-
+EMPTY
 usa
 japan
 usa
@@ -15631,7 +15631,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 canada
 usa uk
 usa
@@ -15643,12 +15643,12 @@ usa
 brazil usa
 usa
 usa
-
+EMPTY
 usa
-
+EMPTY
 belgium
 uk iran iraq
-
+EMPTY
 uk
 brazil
 usa
@@ -15673,7 +15673,7 @@ usa
 france
 usa
 italy
-
+EMPTY
 usa
 uk
 usa
@@ -15687,7 +15687,7 @@ brazil
 colombia
 usa
 usa
-
+EMPTY
 usa
 usa
 usa uk south-africa namibia
@@ -15746,7 +15746,7 @@ usa
 uk canada
 uk canada
 uk japan
-
+EMPTY
 usa brazil
 usa morocco
 usa
@@ -15836,7 +15836,7 @@ uk usa
 france egypt
 uk
 usa
-
+EMPTY
 canada
 usa brazil
 ussr
@@ -15849,7 +15849,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -15864,7 +15864,7 @@ usa ussr
 usa
 usa brazil argentina
 usa argentina
-
+EMPTY
 usa australia
 usa china
 usa canada
@@ -15934,7 +15934,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -15987,7 +15987,7 @@ usa
 usa
 canada
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -15998,10 +15998,10 @@ usa
 usa
 usa ussr
 usa australia
-
-
+EMPTY
+EMPTY
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -16030,7 +16030,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa france
@@ -16043,7 +16043,7 @@ usa
 usa
 usa
 canada
-
+EMPTY
 usa
 usa
 usa
@@ -16169,7 +16169,7 @@ japan
 japan usa
 france
 west-germany
-
+EMPTY
 uk usa
 belgium japan
 uk
@@ -16220,12 +16220,12 @@ usa
 usa
 usa
 usa
-
+EMPTY
 west-germany
 pakistan kenya
 portugal
 malaysia
-
+EMPTY
 ussr usa
 usa
 canada
@@ -16240,7 +16240,7 @@ turkey
 usa
 hungary
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -16257,7 +16257,7 @@ belgium japan
 belgium japan
 usa
 usa
-
+EMPTY
 usa
 canada
 usa
@@ -16288,24 +16288,24 @@ usa
 usa
 usa
 uk italy
-
+EMPTY
 saudi-arabia
-
+EMPTY
 usa
 usa
-
+EMPTY
 usa
 france
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
-
+EMPTY
 usa
 usa
-
+EMPTY
 usa
 canada
 usa
@@ -16403,7 +16403,7 @@ italy
 usa south-africa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -16415,7 +16415,7 @@ netherlands usa
 portugal
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -16436,8 +16436,8 @@ usa
 switzerland japan
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa
@@ -16527,7 +16527,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -16536,7 +16536,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 bahrain iran iraq
@@ -16575,7 +16575,7 @@ usa
 usa
 usa
 canada
-
+EMPTY
 usa switzerland uk
 usa
 usa
@@ -16596,18 +16596,18 @@ canada
 usa
 usa
 usa
-
+EMPTY
 usa
 usa algeria
 usa
 usa
 usa
 usa
-
+EMPTY
 kuwait
 usa
 usa
-
+EMPTY
 usa
 canada
 canada brazil
@@ -16623,7 +16623,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa brazil
 usa
 usa
@@ -16893,7 +16893,7 @@ usa
 usa
 usa
 usa japan
-
+EMPTY
 ussr
 usa
 usa uk
@@ -17038,11 +17038,11 @@ usa
 costa-rica guatemala
 usa
 japan usa
-
+EMPTY
 australia
 japan
 usa japan
-
+EMPTY
 uk
 usa japan
 usa uk
@@ -17363,7 +17363,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa ussr
@@ -17381,16 +17381,16 @@ west-germany
 japan usa
 taiwan
 uk china
-
+EMPTY
 thailand
-
+EMPTY
 uk venezuela
 france canada
-
+EMPTY
 usa
 usa
 kenya
-
+EMPTY
 netherlands
 switzerland
 west-germany
@@ -17436,19 +17436,19 @@ usa
 uae iran
 sri-lanka
 japan
-
+EMPTY
 japan
 singapore
 peru
 china
 uk
-
+EMPTY
 singapore
-
+EMPTY
 japan
 south-korea usa
 mexico
-
+EMPTY
 usa
 japan usa ussr
 israel
@@ -17456,12 +17456,12 @@ japan
 west-germany
 australia
 mexico venezuela
-
+EMPTY
 japan
 uk
 kuwait ussr
 singapore
-
+EMPTY
 japan
 luxembourg
 lebanon
@@ -17478,13 +17478,13 @@ philippines
 japan
 usa
 canada
-
+EMPTY
 usa
 usa
-
+EMPTY
 switzerland norway
 canada
-
+EMPTY
 usa
 usa
 usa
@@ -17493,15 +17493,15 @@ uk
 usa
 sri-lanka
 usa
-
+EMPTY
 usa
-
+EMPTY
 netherlands
 usa
-
+EMPTY
 usa
 france
-
+EMPTY
 italy
 usa
 usa
@@ -17509,7 +17509,7 @@ usa
 zambia
 canada
 south-korea usa
-
+EMPTY
 usa
 usa
 usa
@@ -17522,7 +17522,7 @@ usa
 usa japan
 uk
 canada
-
+EMPTY
 usa
 usa
 usa
@@ -17531,10 +17531,10 @@ usa
 usa
 usa
 usa japan
-
-
+EMPTY
+EMPTY
 uk
-
+EMPTY
 usa
 usa
 usa uk
@@ -17547,7 +17547,7 @@ usa
 canada
 sweden
 switzerland
-
+EMPTY
 usa
 usa
 west-germany
@@ -17564,7 +17564,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 brazil
 usa
 usa
@@ -17605,7 +17605,7 @@ usa
 usa
 usa
 canada
-
+EMPTY
 usa
 usa
 usa
@@ -17621,7 +17621,7 @@ netherlands west-germany
 uk france italy
 canada
 west-germany
-
+EMPTY
 usa
 usa
 canada france
@@ -17636,7 +17636,7 @@ usa
 uk iran
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -17662,7 +17662,7 @@ canada
 france pakistan
 usa
 togo france
-
+EMPTY
 usa
 usa
 west-germany
@@ -17680,7 +17680,7 @@ usa
 usa
 canada
 usa
-
+EMPTY
 usa
 usa
 canada
@@ -17695,11 +17695,11 @@ usa
 usa
 uk
 usa
-
+EMPTY
 usa
 usa
 uk usa
-
+EMPTY
 usa
 canada
 usa
@@ -17719,18 +17719,18 @@ usa
 usa
 usa
 usa uk
-
+EMPTY
 usa
 usa
 usa
 usa
-
+EMPTY
 canada
 usa
 france
 uk japan malaysia brazil china
 usa
-
+EMPTY
 usa
 usa
 usa canada
@@ -17738,8 +17738,8 @@ usa
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa
@@ -17754,14 +17754,14 @@ usa
 usa
 usa south-korea
 usa
-
+EMPTY
 usa
 belgium
 usa
 canada
-
+EMPTY
 usa
-
+EMPTY
 usa
 usa
 saudi-arabia
@@ -17789,9 +17789,9 @@ canada
 usa
 usa
 canada
-
+EMPTY
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -17804,7 +17804,7 @@ usa
 usa australia spain new-zealand japan
 canada
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -17812,16 +17812,16 @@ usa
 usa
 usa
 canada
-
+EMPTY
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
 usa canada
-
+EMPTY
 usa
 usa
 usa
@@ -17837,12 +17837,12 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
 lebanon
-
+EMPTY
 usa
 usa
 usa
@@ -17878,11 +17878,11 @@ venezuela
 singapore
 china
 south-korea
-
-
+EMPTY
+EMPTY
 japan
 west-germany usa
-
+EMPTY
 japan
 japan
 japan iran iraq
@@ -17895,7 +17895,7 @@ malaysia
 japan
 philippines
 belgium
-
+EMPTY
 west-germany
 uk
 uk
@@ -17936,7 +17936,7 @@ china usa
 canada
 west-germany
 uk
-
+EMPTY
 philippines
 uk
 uk
@@ -17982,24 +17982,24 @@ usa
 uk
 canada
 usa
-
+EMPTY
 australia
 usa
 usa
 usa
-
+EMPTY
 ivory-coast
 usa
 usa
 uk
 canada
 usa
-
-
+EMPTY
+EMPTY
 usa
 switzerland usa ussr
 brazil
-
+EMPTY
 usa
 uk
 usa
@@ -18007,10 +18007,10 @@ belgium
 switzerland
 usa
 pakistan
-
-
+EMPTY
+EMPTY
 usa
-
+EMPTY
 uk
 usa
 usa
@@ -18042,18 +18042,18 @@ luxembourg
 usa
 south-africa
 japan
-
+EMPTY
 norway
-
+EMPTY
 usa
 usa
 uk
 usa
 usa
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 switzerland
 usa
 usa
@@ -18066,16 +18066,16 @@ usa
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa
-
+EMPTY
 usa canada
-
+EMPTY
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -18103,7 +18103,7 @@ usa
 uk
 usa japan
 switzerland
-
+EMPTY
 uk
 usa
 denmark
@@ -18187,7 +18187,7 @@ usa
 canada
 usa
 usa
-
+EMPTY
 usa thailand
 usa
 usa
@@ -18195,7 +18195,7 @@ canada
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 canada
@@ -18211,14 +18211,14 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 canada
 usa
 usa
 usa
-
+EMPTY
 uk
 usa
 usa
@@ -18229,10 +18229,10 @@ france
 usa
 usa
 usa
-
+EMPTY
 usa
 canada
-
+EMPTY
 usa
 usa
 usa
@@ -18263,13 +18263,13 @@ usa
 usa saudi-arabia
 usa
 luxembourg uk west-germany
-
+EMPTY
 usa
 usa
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -18308,7 +18308,7 @@ canada
 canada
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -18316,7 +18316,7 @@ usa
 canada
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -18360,7 +18360,7 @@ usa mexico
 usa
 peru
 new-zealand
-
+EMPTY
 singapore
 japan
 south-korea
@@ -18375,7 +18375,7 @@ israel
 cuba
 usa
 usa egypt
-
+EMPTY
 usa
 nigeria
 usa
@@ -18417,7 +18417,7 @@ canada
 usa
 usa kuwait
 ecuador
-
+EMPTY
 usa
 japan
 japan
@@ -18461,7 +18461,7 @@ japan
 taiwan
 netherlands
 usa
-
+EMPTY
 australia
 china
 australia
@@ -18473,23 +18473,23 @@ usa singapore japan west-germany australia canada new-zealand
 malaysia japan china canada
 uk
 japan usa
-
+EMPTY
 bahrain uae
 sri-lanka
 hong-kong
-
+EMPTY
 japan
 japan
 uk
-
+EMPTY
 bangladesh
 new-zealand
 south-africa
-
+EMPTY
 australia
 south-korea
 new-zealand
-
+EMPTY
 australia
 new-zealand
 uk
@@ -18503,7 +18503,7 @@ sweden west-germany france belgium norway japan usa
 hong-kong
 new-zealand
 australia
-
+EMPTY
 japan
 uk usa
 south-africa
@@ -18515,13 +18515,13 @@ uk
 india
 new-zealand
 japan
-
+EMPTY
 japan usa
 belgium
 japan
 uk iran
 indonesia japan
-
+EMPTY
 thailand vietnam
 japan
 france
@@ -18534,8 +18534,8 @@ uk
 uk
 uk
 uk
-
-
+EMPTY
+EMPTY
 uk
 uk
 uk
@@ -18566,7 +18566,7 @@ netherlands
 australia
 belgium sweden
 canada
-
+EMPTY
 france
 uk
 france
@@ -18633,16 +18633,16 @@ usa
 usa
 usa
 usa
-
+EMPTY
 netherlands
 usa
-
+EMPTY
 usa
 usa
 indonesia
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
 usa
@@ -18650,9 +18650,9 @@ usa
 usa
 canada
 usa
-
+EMPTY
 usa
-
+EMPTY
 france
 canada
 usa
@@ -18663,21 +18663,21 @@ brazil
 usa
 usa
 usa
-
+EMPTY
 uk
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 uk
-
+EMPTY
 usa
-
+EMPTY
 usa indonesia turkey
 uk
-
+EMPTY
 usa
-
+EMPTY
 netherlands indonesia
 usa
 usa
@@ -18687,9 +18687,9 @@ usa
 usa
 usa
 usa canada
-
+EMPTY
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -18698,13 +18698,13 @@ usa
 usa canada
 usa
 netherlands
-
+EMPTY
 canada
 canada
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
 france
 usa
@@ -18734,20 +18734,20 @@ canada
 netherlands indonesia
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
-
+EMPTY
 usa uganda
-
+EMPTY
 belgium spain portugal
 uk spain
 usa
 usa
 italy
 italy
-
+EMPTY
 usa
 usa
 italy
@@ -18768,8 +18768,8 @@ usa
 usa
 usa
 uk
-
-
+EMPTY
+EMPTY
 usa
 uk
 usa
@@ -18786,7 +18786,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 france
 usa
@@ -18796,14 +18796,14 @@ usa
 usa
 usa mexico
 ecuador
-
+EMPTY
 usa
 usa
 usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -18821,7 +18821,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -18833,7 +18833,7 @@ usa
 usa
 usa
 mexico japan canada switzerland usa
-
+EMPTY
 usa
 usa
 usa
@@ -18853,8 +18853,8 @@ usa
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 tanzania
 usa
 brazil
@@ -18886,8 +18886,8 @@ usa pakistan
 usa
 usa jordan
 south-africa uk
-
-
+EMPTY
+EMPTY
 canada
 usa
 canada
@@ -18904,7 +18904,7 @@ usa
 canada
 usa
 usa
-
+EMPTY
 france spain
 usa
 usa
@@ -18940,12 +18940,12 @@ usa china
 usa
 usa
 usa
-
+EMPTY
 usa
 peru
-
+EMPTY
 usa
-
+EMPTY
 mexico uk
 usa
 usa
@@ -18956,7 +18956,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa west-germany
 uk usa
 usa
@@ -18969,16 +18969,16 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
-
+EMPTY
 canada
 usa
 usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -18986,7 +18986,7 @@ france west-germany
 usa
 france
 usa
-
+EMPTY
 italy france
 france japan
 usa canada
@@ -18996,29 +18996,29 @@ france sweden denmark norway iceland
 usa france canada
 canada
 usa india
-
+EMPTY
 france japan west-germany usa
 usa
 usa
 usa japan
-
+EMPTY
 france australia
 usa
 usa
 usa
 usa
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 canada
 canada
 canada
 canada
 canada
 canada
-
-
+EMPTY
+EMPTY
 australia
 japan
 india
@@ -19045,7 +19045,7 @@ japan
 japan
 japan
 japan usa
-
+EMPTY
 japan indonesia bolivia
 uk
 japan
@@ -19115,10 +19115,10 @@ south-korea
 usa
 usa
 usa
-
+EMPTY
 netherlands
 usa
-
+EMPTY
 spain
 usa
 usa
@@ -19142,7 +19142,7 @@ usa
 usa
 usa
 usa belgium
-
+EMPTY
 usa
 usa
 usa
@@ -19165,7 +19165,7 @@ sudan
 ghana
 usa
 uk
-
+EMPTY
 uk
 usa
 usa
@@ -19179,12 +19179,12 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -19199,11 +19199,11 @@ norway
 west-germany
 netherlands
 usa
-
+EMPTY
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -19221,12 +19221,12 @@ belgium
 usa
 usa
 usa
-
+EMPTY
 canada
 spain
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -19234,14 +19234,14 @@ usa
 usa
 usa
 usa
-
+EMPTY
 netherlands west-germany
 usa
-
+EMPTY
 usa
 usa
 usa
-
+EMPTY
 south-africa
 usa india
 uk
@@ -19254,7 +19254,7 @@ netherlands
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -19276,9 +19276,9 @@ canada
 usa
 canada japan
 jamaica usa
-
+EMPTY
 usa
-
+EMPTY
 usa
 usa
 canada
@@ -19302,7 +19302,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -19320,14 +19320,14 @@ usa
 usa
 usa hungary
 brazil france
-
+EMPTY
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -19349,13 +19349,13 @@ usa
 usa
 usa
 usa
-
+EMPTY
 uk
-
+EMPTY
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -19391,7 +19391,7 @@ usa
 usa
 brazil
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -19403,7 +19403,7 @@ usa
 usa kuwait saudi-arabia
 usa
 mexico
-
+EMPTY
 canada
 usa
 usa canada
@@ -19411,15 +19411,15 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa japan ussr
@@ -19458,9 +19458,9 @@ usa
 brazil
 usa
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -19484,7 +19484,7 @@ usa
 canada
 usa
 suriname netherlands
-
+EMPTY
 qatar
 venezuela
 japan
@@ -19498,7 +19498,7 @@ singapore japan
 usa
 japan iraq iran uae qatar kuwait saudi-arabia
 japan
-
+EMPTY
 usa japan
 lebanon
 uk
@@ -19510,18 +19510,18 @@ norway
 usa
 japan
 japan
-
+EMPTY
 japan
 japan
 usa japan
 japan australia
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 thailand
 france portugal
 australia
@@ -19534,7 +19534,7 @@ philippines
 belgium
 hong-kong
 bahrain
-
+EMPTY
 japan
 bangladesh
 china south-korea australia
@@ -19542,12 +19542,12 @@ norway
 hong-kong
 japan
 west-germany
-
+EMPTY
 belgium usa
-
+EMPTY
 uk
 poland
-
+EMPTY
 belgium
 uk
 west-germany
@@ -19565,70 +19565,70 @@ france
 west-germany
 south-korea
 singapore usa
-
-
+EMPTY
+EMPTY
 ivory-coast
 india
 usa
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
-
+EMPTY
 france
 uk canada
 uk
 usa
 netherlands
 usa spain
-
+EMPTY
 canada
 usa
 usa
@@ -19668,11 +19668,11 @@ usa
 denmark
 usa
 usa
-
+EMPTY
 india
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -19686,7 +19686,7 @@ usa china
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -19703,7 +19703,7 @@ usa
 usa
 usa
 west-germany
-
+EMPTY
 usa
 usa
 usa
@@ -19723,11 +19723,11 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -19745,14 +19745,14 @@ usa
 usa
 uruguay
 usa
-
+EMPTY
 usa
 usa
 usa
 usa
 usa
 usa mexico
-
+EMPTY
 usa iran
 usa
 usa
@@ -19763,9 +19763,9 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
-
+EMPTY
 canada
 usa
 usa
@@ -19818,8 +19818,8 @@ usa
 usa
 yugoslavia uae iran iraq
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa brazil
 canada
@@ -19850,7 +19850,7 @@ usa
 canada
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -19869,7 +19869,7 @@ usa
 bolivia
 usa
 canada
-
+EMPTY
 usa
 canada
 usa
@@ -19890,14 +19890,14 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
 usa
 canada
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa venezuela
@@ -19908,7 +19908,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -19918,9 +19918,9 @@ usa
 israel
 usa
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -19935,8 +19935,8 @@ usa
 usa
 usa
 canada
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa
@@ -19962,7 +19962,7 @@ usa
 usa
 canada
 usa ussr
-
+EMPTY
 canada
 usa
 usa
@@ -19977,51 +19977,51 @@ usa
 usa
 usa
 usa egypt
-
+EMPTY
 usa
 pakistan
 usa
 new-zealand
 japan
 japan
-
-
+EMPTY
+EMPTY
 japan usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
 japan usa
-
+EMPTY
 philippines
 japan usa iran
-
+EMPTY
 venezuela usa iran
 japan
-
+EMPTY
 japan usa
 japan france
 japan
 mexico
 indonesia uk malaysia usa papua-new-guinea west-germany netherlands
-
+EMPTY
 japan
 malaysia
 usa west-germany
-
-
+EMPTY
+EMPTY
 japan usa west-germany
 new-zealand
-
-
+EMPTY
+EMPTY
 japan
-
+EMPTY
 tanzania malawi mozambique zaire
 tanzania
 japan
 philippines
 japan
 japan
-
+EMPTY
 japan
 west-germany
 new-zealand
@@ -20029,61 +20029,61 @@ japan usa
 japan
 indonesia
 bangladesh
-
-
+EMPTY
+EMPTY
 bahrain iran
 uk
-
+EMPTY
 uk canada
 west-germany
 uk
-
-
+EMPTY
+EMPTY
 uk usa
 japan
-
+EMPTY
 philippines usa
 thailand
-
+EMPTY
 japan
-
+EMPTY
 philippines
 uk usa
 philippines
-
+EMPTY
 uk
-
-
+EMPTY
+EMPTY
 south-korea
 uk brazil cuba
-
+EMPTY
 austria usa ussr japan
 japan
 uk
 uk
 japan
-
-
-
+EMPTY
+EMPTY
+EMPTY
 west-germany
-
+EMPTY
 west-germany
 west-germany usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
 uk
 japan
 uk
 west-germany
 malaysia
 west-germany
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 west-germany
-
+EMPTY
 west-germany
 mexico
 west-germany
@@ -20093,140 +20093,140 @@ syria iran usa
 indonesia
 luxembourg
 indonesia
-
-
-
+EMPTY
+EMPTY
+EMPTY
 hong-kong
-
+EMPTY
 iran usa cyprus
-
+EMPTY
 iran usa
-
+EMPTY
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
-
-
-usa
-usa
-usa
-
+EMPTY
+EMPTY
 usa
 usa
 usa
+EMPTY
 usa
-
-
-
+usa
+usa
+usa
+EMPTY
+EMPTY
+EMPTY
 uk
 uk
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
-
-
-usa
-usa
-usa
-usa
-
-usa
-usa
-
+EMPTY
+EMPTY
 usa
 usa
 usa
-
-
-
+usa
+EMPTY
+usa
+usa
+EMPTY
+usa
+usa
+usa
+EMPTY
+EMPTY
+EMPTY
 uk
-
-
+EMPTY
+EMPTY
 usa
-
+EMPTY
 usa
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
 west-germany
 usa
 usa
 usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
-
+EMPTY
 usa
-
-
-
-usa
-usa
-
-
-usa
-
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
+EMPTY
+EMPTY
 usa
+EMPTY
 usa
 usa
 usa
-
-
-
 usa
-
-
-
 usa
-
-
 usa
-
+EMPTY
+EMPTY
+EMPTY
+usa
+EMPTY
+EMPTY
+EMPTY
+usa
+EMPTY
+EMPTY
+usa
+EMPTY
 sweden
-
+EMPTY
 usa
 usa
 west-germany
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 canada
-
+EMPTY
 usa
 canada
 usa
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
 usa ussr
 usa india
@@ -20237,13 +20237,13 @@ usa
 usa
 usa
 usa algeria
-
+EMPTY
 usa
 usa
 switzerland
-
+EMPTY
 usa sweden
-
+EMPTY
 south-africa
 uk usa
 usa
@@ -20251,34 +20251,34 @@ usa mexico
 canada
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
 usa sri-lanka
 uk usa west-germany
-
+EMPTY
 tanzania
 uk
 usa
 taiwan
-
+EMPTY
 usa
 sri-lanka
 usa
 usa
 norway
-
+EMPTY
 italy
 usa
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
 usa
-
-
+EMPTY
+EMPTY
 canada usa uk japan west-germany france italy
 bahrain
 usa
@@ -20287,20 +20287,20 @@ usa
 switzerland
 usa
 usa
-
+EMPTY
 usa
 usa
-
+EMPTY
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa
 usa
 usa
-
+EMPTY
 usa
 taiwan usa
 usa
@@ -20312,10 +20312,10 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa mexico
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa
@@ -20324,30 +20324,30 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
 cyprus iran usa
 usa
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
-
+EMPTY
 usa
-
+EMPTY
 france west-germany
-
-
+EMPTY
+EMPTY
 usa
 canada
 usa
@@ -20356,7 +20356,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 canada
 usa
@@ -20384,7 +20384,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 luxembourg
 uk japan
@@ -20394,18 +20394,18 @@ usa
 uk norway
 usa
 usa
-
+EMPTY
 usa
-
-usa
-usa
+EMPTY
 usa
 usa
 usa
 usa
 usa
 usa
-
+usa
+usa
+EMPTY
 usa
 usa
 canada
@@ -20414,7 +20414,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -20422,17 +20422,17 @@ usa
 switzerland
 usa
 usa
-
+EMPTY
 usa
-
-
+EMPTY
+EMPTY
 usa
-
-usa
-usa
+EMPTY
 usa
 usa
-
+usa
+usa
+EMPTY
 sweden
 usa
 usa
@@ -20441,8 +20441,8 @@ canada
 usa japan
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
 west-germany
 usa
@@ -20475,16 +20475,16 @@ ussr
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
 usa
-
+EMPTY
 italy
 sweden norway
-
-
+EMPTY
+EMPTY
 usa
 uk
 usa
@@ -20517,7 +20517,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 uk switzerland
 iraq iran uae
 usa
@@ -20525,7 +20525,7 @@ usa
 usa italy
 norway
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -20534,12 +20534,12 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -20548,7 +20548,7 @@ usa
 usa
 usa
 argentina
-
+EMPTY
 usa
 usa
 usa
@@ -20556,7 +20556,7 @@ usa china
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -20567,21 +20567,17 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
-
-usa
-usa
-usa
-usa
-usa
-
+EMPTY
 usa
 usa
 usa
 usa
+usa
+EMPTY
 usa
 usa
 usa
@@ -20594,35 +20590,39 @@ usa
 usa
 usa
 usa
-
-usa
-
 usa
 usa
 usa
 usa
+EMPTY
+usa
+EMPTY
 usa
 usa
 usa
-
 usa
 usa
-
+usa
+usa
+EMPTY
+usa
+usa
+EMPTY
 usa
 usa
 italy
 usa
-
+EMPTY
 usa
-
-usa
-usa
+EMPTY
 usa
 usa
-
+usa
+usa
+EMPTY
 usa
 usa iran
-
+EMPTY
 usa
 usa
 usa
@@ -20630,17 +20630,17 @@ usa
 usa
 west-germany
 usa iran
-
+EMPTY
 usa
 west-germany
 uk
-
+EMPTY
 usa
 usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa ussr
 usa
@@ -20656,12 +20656,12 @@ usa
 usa
 canada
 usa
-
+EMPTY
 usa
 usa
 ecuador
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -20671,9 +20671,9 @@ usa
 usa
 usa
 usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
 usa
@@ -20681,26 +20681,26 @@ usa
 france
 ecuador
 usa
-
+EMPTY
 usa
 usa
-
-
-usa
-usa
-usa
-
+EMPTY
+EMPTY
 usa
 usa
 usa
-
+EMPTY
+usa
+usa
+usa
+EMPTY
 usa
 usa
 usa
 usa
 usa
 usa
-
+EMPTY
 france usa
 usa
 canada
@@ -20713,34 +20713,34 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa saudi-arabia iran kuwait
 usa
 usa
-
+EMPTY
 usa el-salvador
-
+EMPTY
 usa
-
+EMPTY
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa japan
 usa
 usa
 usa
 usa
-
+EMPTY
 usa algeria
 usa
 usa
 iran iraq
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -20751,15 +20751,15 @@ luxembourg uk netherlands
 usa
 brazil
 usa
-
-
+EMPTY
+EMPTY
 usa iran
 brazil
 usa
-
+EMPTY
 usa
-
-
+EMPTY
+EMPTY
 canada usa
 usa west-germany
 usa
@@ -20786,7 +20786,7 @@ usa
 usa
 usa japan
 usa
-
+EMPTY
 canada
 usa
 usa
@@ -20843,23 +20843,23 @@ usa
 mexico
 switzerland
 chile
-
-
-
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 japan
 japan
 usa
-
-
-
-
+EMPTY
+EMPTY
+EMPTY
+EMPTY
 usa
 japan usa
-
+EMPTY
 usa west-germany uk japan
 luxembourg uk
 usa canada israel
@@ -20877,7 +20877,7 @@ usa
 usa
 venezuela ecuador
 usa
-
+EMPTY
 usa iran
 france usa iran
 canada
@@ -20898,7 +20898,7 @@ usa
 usa
 japan usa
 usa
-
+EMPTY
 italy usa iran
 usa
 usa
@@ -20911,16 +20911,16 @@ usa
 usa philippines malaysia indonesia
 usa
 usa
-
+EMPTY
 canada
 usa
 usa
 usa
 usa
 usa
-
+EMPTY
 luxembourg west-germany
-
+EMPTY
 usa
 usa west-germany
 usa
@@ -20930,44 +20930,44 @@ usa
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa
 usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
-
+EMPTY
 canada
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa
 yugoslavia
 usa
-
-
+EMPTY
+EMPTY
 usa iran
 usa
 usa egypt
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -20977,7 +20977,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa iran
 usa uk
 usa
@@ -20992,20 +20992,20 @@ luxembourg usa iran
 usa
 usa
 usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
 usa
-
+EMPTY
 bahrain iran usa
-
+EMPTY
 canada
 canada
 bahrain usa iran
 usa france
-
+EMPTY
 usa
 usa
 usa
@@ -21018,11 +21018,11 @@ usa
 uk norway
 uk
 uganda egypt
-
+EMPTY
 usa
 west-germany
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -21053,19 +21053,19 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 venezuela
 usa
 usa
-
+EMPTY
 usa
-
-
+EMPTY
+EMPTY
 spain uk usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -21088,14 +21088,14 @@ usa
 usa
 usa
 usa china
-
+EMPTY
 usa
 usa
 usa
 usa
 italy
 usa
-
+EMPTY
 uk
 usa
 west-germany usa
@@ -21108,7 +21108,7 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
@@ -21118,13 +21118,13 @@ usa
 usa
 usa
 austria
-
+EMPTY
 france
 ussr
-
-
+EMPTY
+EMPTY
 usa indonesia
-
+EMPTY
 usa west-germany
 usa
 usa
@@ -21136,7 +21136,7 @@ usa
 usa
 usa
 france usa
-
+EMPTY
 usa
 usa
 usa
@@ -21148,28 +21148,28 @@ usa
 usa
 cyprus iran usa kuwait
 usa
-
+EMPTY
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
 switzerland uk west-germany usa
 usa
 usa
-
+EMPTY
 usa
-
-usa
-usa
+EMPTY
 usa
 usa
-
+usa
+usa
+EMPTY
 usa saudi-arabia
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
 uganda egypt
 usa
@@ -21195,13 +21195,13 @@ usa
 usa
 usa
 usa iran
-
+EMPTY
 usa
 sweden switzerland west-germany
 uk
 usa
 usa
-
+EMPTY
 usa
 usa
 france
@@ -21223,12 +21223,12 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa
@@ -21260,18 +21260,18 @@ usa
 usa
 canada
 usa
-
+EMPTY
 usa
 usa
 usa
 usa
-
+EMPTY
 usa
 usa
 usa
 usa
 usa
-
+EMPTY
 usa
 japan
 france west-germany usa japan
@@ -21279,14 +21279,14 @@ usa
 usa
 west-germany
 usa
-
+EMPTY
 usa
-
-usa
-usa
+EMPTY
 usa
 usa
-
+usa
+usa
+EMPTY
 usa
 usa
 usa
@@ -21304,34 +21304,34 @@ west-germany
 usa
 usa
 usa japan canada
-
+EMPTY
 usa
 canada
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
 usa
-
+EMPTY
 uk usa
 usa
 usa
-
+EMPTY
 uk
 usa
-
+EMPTY
 usa
 usa
 canada
 usa
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
 usa
-
+EMPTY
 uk
 usa
 usa
@@ -21340,30 +21340,30 @@ west-germany
 usa
 canada
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
-
+EMPTY
 usa
-
-usa
-usa
+EMPTY
 usa
 usa
 usa
 usa
 usa
 usa
-
-
-
+usa
+usa
+EMPTY
+EMPTY
+EMPTY
 usa
 ussr
 usa iran ussr iraq
@@ -21372,22 +21372,22 @@ switzerland
 usa
 usa
 usa
-
+EMPTY
 usa
-
-usa
-usa
-
+EMPTY
 usa
 usa
-
-
+EMPTY
+usa
+usa
+EMPTY
+EMPTY
 usa
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 thailand australia
 turkey
 usa
@@ -21406,8 +21406,8 @@ usa
 usa
 usa
 usa
-
-
+EMPTY
+EMPTY
 usa
 usa
 usa
@@ -21415,74 +21415,74 @@ usa
 usa
 usa
 usa
-
+EMPTY
 usa
-
-
+EMPTY
+EMPTY
 switzerland west-germany
 ussr
-
-
+EMPTY
+EMPTY
 usa
-
-usa
-usa
-usa
-usa
-
-
+EMPTY
 usa
 usa
 usa
 usa
+EMPTY
+EMPTY
 usa
-
-
 usa
-
+usa
+usa
+usa
+EMPTY
+EMPTY
+usa
+EMPTY
 cyprus iran usa
-
-
-
+EMPTY
+EMPTY
+EMPTY
 usa
 usa
 kenya
-
+EMPTY
 usa
-
+EMPTY
 usa
 usa italy
 usa
-
-
+EMPTY
+EMPTY
 west-germany
 usa iran
 usa
 usa
 usa italy
-
-
-
+EMPTY
+EMPTY
+EMPTY
 hong-kong
 usa
-
+EMPTY
 usa
-
-
+EMPTY
+EMPTY
 usa
 south-korea
 usa
 bahrain iran usa
-
+EMPTY
 west-germany
-
+EMPTY
 usa
 usa
 usa
 bahrain iran
 usa
-
-
+EMPTY
+EMPTY
 iraq iran japan saudi-arabia
 usa
 usa
@@ -21492,76 +21492,76 @@ luxembourg belgium
 usa iran
 thailand
 iran
-
-
+EMPTY
+EMPTY
 india
 malaysia
-
+EMPTY
 west-germany
 usa iran
 yemen-demo-republic cyprus
 usa uk
 uk
-
+EMPTY
 kuwait
 japan
 west-germany
 new-zealand
 venezuela
-
+EMPTY
 france west-germany usa
 hong-kong
 belgium
 uk
 uganda
 cyprus usa iran
-
+EMPTY
 norway
-
+EMPTY
 west-germany usa
 singapore
 uk china
 finland
 malaysia
 uk cuba brazil
-
-
+EMPTY
+EMPTY
 luxembourg
 china
-
+EMPTY
 philippines
 uk
 uk
 south-africa
 ussr
-
+EMPTY
 uk
 lebanon
-
+EMPTY
 norway
 japan usa uk west-germany france italy canada
-
-
+EMPTY
+EMPTY
 japan
 norway
 japan
-
+EMPTY
 japan
 hong-kong
 japan
-
+EMPTY
 japan
-
-
+EMPTY
+EMPTY
 france
 malaysia
 usa
-
+EMPTY
 japan
 new-zealand
 philippines
 usa iran
-
+EMPTY
 new-zealand fiji
 japan usa
 uganda

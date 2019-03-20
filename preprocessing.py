@@ -76,7 +76,7 @@ def write_words(soup,array):
 				stemmed=porter.stem(word)
 				join_array.append(stemmed)
 		join_string=join_string.join(join_array)
-		array.append(join_string)	
+		array.append(join_string ? join_string : 'EMPTY')	
 	return array
 
 def main():

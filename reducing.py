@@ -22,6 +22,8 @@ def write_labels(soup,array,type):
 			temp.append(d.string.lower())
 		join_string=" "
 		join_string=join_string.join(temp)
+		if(join_string==""):
+			join_string="EMPTY"
 		array.append(join_string)
 	return array
 
@@ -34,7 +36,6 @@ def write_words(soup,array,type):
 		#object=article_soup.find(type)
 		if(article.title is not None):
 			object=article.title.string
-			print(object)
 		else:
 			object=""
 		join_string=" "
@@ -47,6 +48,8 @@ def write_words(soup,array,type):
 				stemmed=porter.stem(word)
 				join_array.append(stemmed)
 		join_string=join_string.join(join_array)
+		if(join_string==""):
+			join_string="EMPTY"
 		array.append(join_string)
 	return array
 
@@ -58,16 +61,16 @@ def main():
 	for filename in filenames:
 		soup = BeautifulSoup(open(filename), 'html.parser')
 		array=write_words(soup,array,'title')
-		#topics=write_labels(soup,topics,'topics')
-		#places=write_labels(soup,places,'places')
+		topics=write_labels(soup,topics,'topics')
+		places=write_labels(soup,places,'places')
 		#frequency_of_words_in_body(soup,word_counts)
 		#datelines_array=get_datelines(soup,datelines_array)
 		#places_array,places_empty,places_counts=get_objects(soup,'places',places_array,places_empty,places_counts)
 		#topics_array,topics_empty,topics_counts=get_objects(soup,'topics',topics_array,topics_empty,topics_counts)
 	
 	np.savetxt('reduced_titles_array.out', array, delimiter='\n', fmt='%s')
-	#np.savetxt('places_labels.out', places, delimiter='\n', fmt='%s')
-	#np.savetxt('topics_labels.out', topics, delimiter='\n', fmt='%s')
+	np.savetxt('places_labels.out', places, delimiter='\n', fmt='%s')
+	np.savetxt('topics_labels.out', topics, delimiter='\n', fmt='%s')
 	
 	# unique_places=get_unique(places_array)
 	# unique_topics=get_unique(topics_array)
