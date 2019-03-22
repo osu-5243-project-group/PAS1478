@@ -34,7 +34,7 @@ def main():
 	topic_X = topic_vectorizer.fit_transform(topic_train_data)
 	topic_Y= topic_vectorizer.transform(topic_test_data)
 
-	neigh = KNeighborsClassifier(n_neighbors=3)
+	neigh = KNeighborsClassifier(n_neighbors=6)
 	neigh.fit(topic_X, topic_train_labels)
 	
 	topic_predicted_labels=neigh.predict(topic_Y)
@@ -57,7 +57,7 @@ def main():
 	places_X = topic_vectorizer.fit_transform(places_train_data)
 	places_Y= topic_vectorizer.transform(places_test_data)
 
-	neigh = KNeighborsClassifier(n_neighbors=3)
+	neigh = KNeighborsClassifier(n_neighbors=1)
 	neigh.fit(places_X, places_train_labels)
 	
 	places_predicted_labels=neigh.predict(places_Y)

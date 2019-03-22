@@ -9,7 +9,7 @@ from nltk.tokenize import word_tokenize
 from nltk.stem.porter import PorterStemmer
 
 def get_filenames():
-	filenames=glob('data/*.sgm')
+	filenames=glob('sgm_data/*.sgm')
 	return filenames
 
 def get_objects(soup,type,array,empty_count,counts):
