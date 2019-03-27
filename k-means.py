@@ -22,7 +22,7 @@ def get_data(data_filename,labels_filename):
 	return data,labels
 
 def main():
-    data,labels=get_data('reduced_data/reduced_datelines.out','reduced_data/topics_labels.out')
+    data,labels=get_data('reduced_data/reduced_titles.out','reduced_data/topics_labels.out')
     data_vectorizer = CountVectorizer()
     vector_data = data_vectorizer.fit_transform(data)
 
@@ -41,7 +41,7 @@ def main():
     svd_centroids = centroids #svd.transform(centroids)
     
     # Step size of the mesh. Decrease to increase the quality of the VQ.
-    h = .001     # point in the mesh [x_min, x_max]x[y_min, y_max].
+    h = .01     # point in the mesh [x_min, x_max]x[y_min, y_max].
     margin = 0.1
 
     x_min, x_max = svd_data[:, 0].min() - margin, svd_data[:, 0].max() + margin
@@ -55,7 +55,6 @@ def main():
     for label in kmeans.labels_:
         if label not in label_index:
             label_index[label] = len(label_index)
-
 
     cmap = plt.get_cmap('Set1')
 
@@ -72,9 +71,10 @@ def main():
             cmap=cmap)
     plt.scatter(svd_centroids[:, 0], svd_centroids[:, 1],
             marker='x', s=169, linewidths=3,
-            color='w', zorder=10)
-    plt.title('K-means clustering (SVD-projected plot)\n'
-          'Centroids are marked with white cross')
+            c=np.arange(n_labels),
+            cmap=cmap, zorder=10)
+    plt.title('K-means clustering with {} clusters (SVD-projected plot)\n'
+          'Centroids are marked with colored cross'.format(n_labels))
     plt.xlim(x_min, x_max)
     plt.ylim(y_min, y_max)
     plt.xticks(())
