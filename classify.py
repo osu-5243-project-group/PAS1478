@@ -35,10 +35,7 @@ def random_sample(number,data,labels):
 	
 	for i in range(0,len(data),1):
 		check=True
-		for j in idx:
-			if(i==j):
-				check=False
-		if(check):
+		if(i not in idx):
 			data_test.append(data[i])
 			data_test_labels.append(labels[i])
 			
