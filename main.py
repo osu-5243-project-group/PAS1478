@@ -8,9 +8,9 @@ def get_filenames():
 	return filenames
 
 def load_data(filenames):
-	data_topics=[]
-	data_places=[]
-	fields=['date','people','orgs','exchanges','companies','title','dateline','body']
+	data=[]
+	fields=['date','people','orgs','exchanges','companies','title','dateline','body','unknown']
+	labels=['topics','places']
 	for filename in filenames:
 		soup = BeautifulSoup(open(filename), 'html.parser')
 		reuters=soup.find_all('reuters')
@@ -22,19 +22,14 @@ def load_data(filenames):
 					line.append(temp.string)
 				else:
 					line.append('empty')
-			temp_places=[]
-			temp=article.find('places')
-			ds=temp.find_all('d')
-			for d in ds:
-				temp_places.append(d.string)
-			
-			temp_topics=[]
-			temp=article.find('topics')
-			ds=temp.find_all('d')
-			for d in ds:
-				temp_topics.append(d.string)
-			
-			if(len(line[8])> 0 and len(line[9])>0):
+			for label in labels:
+				temp_labels=[]
+				temp=article.find(label)
+				ds=temp.find_all('d')
+				for d in ds:
+					temp_labels.append(d.string)
+				line.append(temp_labels)
+			if(len(line[9])> 0 and len(line[10])>0):
 				data.append(line)
 	print(len(data))
 	return data
