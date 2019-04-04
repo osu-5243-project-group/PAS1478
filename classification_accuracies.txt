@@ -1,0 +1,36 @@
+places and datelines
+Accuracy score for testing set:
+0.931315732989912
+places and bodies
+Accuracy score for testing set:
+0.691825259515571
+places and orgs
+Accuracy score for testing set:
+0.3495197438633938
+places and exchanges
+Accuracy score for testing set:
+0.6454338641533962
+places and dates
+Accuracy score for testing set:
+0.5024800517576019
+places and people
+Accuracy score for testing set:
+0.691825259515571
+topics and titles
+Accuracy score for testing set:
+0.5882457702582369
+topics and bodies
+Accuracy score for testing set:
+0.6564048124557679
+topics and orgs
+Accuracy score for testing set:
+0.34985785358919685
+topics and exchanges
+Accuracy score for testing set:
+0.3269230769230769
+topics and dates
+Accuracy score for testing set:
+0.24434876210979548
+topics and people
+Accuracy score for testing set:
+0.6564048124557679
