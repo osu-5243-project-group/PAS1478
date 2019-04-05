@@ -51,7 +51,7 @@ def classifyTopicsPlaces(train_data,train_labels,test_data,test_labels,k):
    print(accuracy_score(predicted_labels, test_labels))
 
 def get_accuracies(type,train_data,train_labels,test_data,test_labels):
-	K=[1,2,3,4,5,6,7,8,9,10]
+	K=list(range(1,50))
 	accuracies=[]
 	vectorizer = CountVectorizer()
 	X = vectorizer.fit_transform(train_data)
@@ -70,19 +70,21 @@ def get_accuracies(type,train_data,train_labels,test_data,test_labels):
 	return accuracies
 	
 def plot(type,accuracies):
-	if(type=='places'):
-		plt.plot([1,2,3,4,5,6,7,8,9,10],accuracies['datelines'], '-', color='blue', label='datelines')
+	K=list(range(1,50))
+	if(type=='Places'):
+		plt.plot(K,accuracies['datelines'], '-', color='blue', label='datelines')
 	else:
-		plt.plot([1,2,3,4,5,6,7,8,9,10],accuracies['titles'], '-', color='blue', label='titles')
-	plt.plot([1,2,3,4,5,6,7,8,9,10],accuracies['bodies'], '-', color='red', label='bodies')
-	plt.plot([1,2,3,4,5,6,7,8,9,10],accuracies['orgs'], '-', color='yellow', label='orgs')
-	plt.plot([1,2,3,4,5,6,7,8,9,10],accuracies['people'], '-', color='green', label='people')
-	plt.plot([1,2,3,4,5,6,7,8,9,10],accuracies['exchanges'], '-', color='magenta', label='exchanges')
-	plt.plot([1,2,3,4,5,6,7,8,9,10],accuracies['dates'], '-', color='cyan', label='dates')
+		plt.plot(K,accuracies['titles'], '-', color='blue', label='titles')
+	
+	plt.plot(K,accuracies['bodies'], '-', color='red', label='bodies')
+	plt.plot(K,accuracies['orgs'], '-', color='yellow', label='orgs')
+	plt.plot(K,accuracies['people'], '-', color='green', label='people')
+	plt.plot(K,accuracies['exchanges'], '-', color='magenta', label='exchanges')
+	plt.plot(K,accuracies['dates'], '-', color='cyan', label='dates')
 	title=type+ ' Accuracies vs K'
 	plt.title(title)
 	plt.xlabel('K')
-	plt.ylabel('Accuracies')
+	plt.ylabel('Testing Accuracies')
 	plt.legend(loc='center right')
 	plt.show()
 
@@ -113,7 +115,7 @@ def main():
 	# classifyTopicsPlaces(exchanges_train_data,exchanges_train_labels,exchanges_test_data,exchanges_test_labels,6)
 	places_accuracies['exchanges']=get_accuracies('Exchanges Places',exchanges_train_data,exchanges_train_labels,exchanges_test_data,exchanges_test_labels)
 
-	print('places and dates')
+	print('places and dates') 
 	dates_data,dates_labels=get_data('reduced_data/reduced_dates.out','reduced_data/places_labels.out')
 	dates_train_data,dates_train_labels,dates_test_data,dates_test_labels=random_sample(int(np.floor(0.80*len(dates_data))),dates_data,dates_labels)
 	# classifyTopicsPlaces(dates_train_data,dates_train_labels,dates_test_data,dates_test_labels,6)
@@ -125,7 +127,7 @@ def main():
 	# classifyTopicsPlaces(bodies_train_data,bodies_train_labels,bodies_test_data,bodies_test_labels,6)
 	places_accuracies['people']=get_accuracies('People Places',people_train_data,people_train_labels,people_test_data,people_test_labels)
 
-	plot('places',places_accuracies)
+	plot('Places',places_accuracies)
 
 	topics_accuracies={}
 	print('topics and titles')

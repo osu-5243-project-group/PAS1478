@@ -75,7 +75,7 @@ def classifyTitlesTopics(topics_train_data,topics_train_labels,topics_test_data,
 	topics_X = topics_vectorizer.fit_transform(topics_train_data)
 	topics_Y= topics_vectorizer.transform(topics_test_data)
 
-	neigh = KNeighborsClassifier(n_neighbors=2)
+	neigh = KNeighborsClassifier(n_neighbors=1)
 	neigh.fit(topics_X, topics_train_labels)
 	
 	topics_prob_labels=neigh.predict_proba(topics_Y)
@@ -87,7 +87,7 @@ def classifyDatelinesPlaces(places_train_data,places_train_labels,places_test_da
 	places_X = places_vectorizer.fit_transform(places_train_data)
 	places_Y= places_vectorizer.transform(places_test_data)
 
-	neigh = KNeighborsClassifier(n_neighbors=10)
+	neigh = KNeighborsClassifier(n_neighbors=27)
 	neigh.fit(places_X, places_train_labels)
 	
 	places_predicted_labels=neigh.predict(places_Y)
@@ -144,19 +144,19 @@ def main():
 	places_datelines_prob,datelines_labels=classifyDatelinesPlaces(train_datelines,places_train_labels,test_datelines,places_test_labels)
 	
 	print('training places and bodies')
-	places_bodies_prob=classifyTopicsPlaces(train_places_body,places_train_labels,test_places_body,places_test_labels,10)
+	places_bodies_prob=classifyTopicsPlaces(train_places_body,places_train_labels,test_places_body,places_test_labels,13)
 	
 	print('training places and people')
-	places_people_prob=classifyTopicsPlaces(train_places_people,places_train_labels,test_places_people,places_test_labels,6)
+	places_people_prob=classifyTopicsPlaces(train_places_people,places_train_labels,test_places_people,places_test_labels,13)
 	
 	print('training places and orgs')
-	places_orgs_prob=classifyTopicsPlaces(train_places_orgs,places_train_labels,test_places_orgs,places_test_labels,1)
+	places_orgs_prob=classifyTopicsPlaces(train_places_orgs,places_train_labels,test_places_orgs,places_test_labels,13)
 	
 	print('training places and dates')
-	places_dates_prob=classifyTopicsPlaces(train_places_dates,places_train_labels,test_places_dates,places_test_labels,10)
+	places_dates_prob=classifyTopicsPlaces(train_places_dates,places_train_labels,test_places_dates,places_test_labels,13)
 	
 	print('training places and exchanges')
-	places_exchanges_prob=classifyTopicsPlaces(train_places_exchanges,places_train_labels,test_places_exchanges,places_test_labels,2)
+	places_exchanges_prob=classifyTopicsPlaces(train_places_exchanges,places_train_labels,test_places_exchanges,places_test_labels,13)
 	
 	
 	sorted_places_labels=sorted(datelines_labels)
@@ -188,13 +188,13 @@ def main():
 	topics_people_prob=classifyTopicsPlaces(train_topics_people,topics_train_labels,test_topics_people,topics_test_labels,1)
 	
 	print('training topics and orgs')
-	topics_orgs_prob=classifyTopicsPlaces(train_topics_orgs,topics_train_labels,test_topics_orgs,topics_test_labels,7)
+	topics_orgs_prob=classifyTopicsPlaces(train_topics_orgs,topics_train_labels,test_topics_orgs,topics_test_labels,21)
 	
 	print('training topics and dates')
-	topics_dates_prob=classifyTopicsPlaces(train_topics_dates,topics_train_labels,test_topics_dates,topics_test_labels,9)
+	topics_dates_prob=classifyTopicsPlaces(train_topics_dates,topics_train_labels,test_topics_dates,topics_test_labels,31)
 	
 	print('training topics and exchanges')
-	topics_exchanges_prob=classifyTopicsPlaces(train_topics_exchanges,topics_train_labels,test_topics_exchanges,topics_test_labels,2)
+	topics_exchanges_prob=classifyTopicsPlaces(train_topics_exchanges,topics_train_labels,test_topics_exchanges,topics_test_labels,5)
 	
 	
 	sorted_topics_labels=sorted(titles_labels)
