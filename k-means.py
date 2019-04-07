@@ -40,11 +40,11 @@ def cluster(vector_data, labels, n_clusters):
     return h_score, c_score, kmeans, svd_data
 
 def plot_clustering(vector_data, labels, n_clusters):
-    h_score, c_score, kmeans, svd_data = cluster(vector_data, labels, n_clusters)
+    h_score, c_score, kmeans, s_data = cluster(vector_data, labels, n_clusters)
 
     plot_svd = TruncatedSVD(n_components=2, n_iter=10, random_state=42, tol=0.0)
-    plot_svd_data = plot_svd.fit_transform(svd_data)
-    plot_svd_centroids = plot_svd.fit_transform(kmeans.cluster_centers_)
+    plot_svd_data = plot_svd.fit_transform(s_data)
+    plot_svd_centroids = plot_svd.transform(kmeans.cluster_centers_)
 
     # Step size of the mesh. Decrease to increase the quality of the VQ.
     h = .01     # point in the mesh [x_min, x_max]x[y_min, y_max].
@@ -76,7 +76,7 @@ def plot_clustering(vector_data, labels, n_clusters):
     plt.show()
 
 def main():
-    data,labels=get_data('reduced_data/reduced_titles.out','reduced_data/places_labels.out')
+    data,labels=get_data('reduced_data/reduced_titles.out','reduced_data/topics_labels.out')
     data_vectorizer = CountVectorizer()
     vector_data = data_vectorizer.fit_transform(data)
 
@@ -94,7 +94,7 @@ def main():
     # Plot h scores vs k
     plt.figure(1)
     plt.clf()
-    plt.title('K-Means Homogeneity vs K (number of clusters)\nTitle Vectors and Places Labels')
+    plt.title('K-Means Homogeneity vs K (number of clusters)\nTitle Vectors and Topics Labels')
     plt.xlabel('Number of Clusters')
     plt.ylabel('Homogeneity')
     plt.plot(k_values, h_scores, '-', lw=2)
