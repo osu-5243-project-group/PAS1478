@@ -8,6 +8,11 @@ from sklearn.decomposition import PCA
 from sklearn.decomposition import TruncatedSVD
 from sklearn.cluster import KMeans, MiniBatchKMeans
 
+N_CLUSTERS = 10
+N_COMPONENTS = 20
+MAX_K = 100
+K_STEP = 5
+
 def get_data(data_filename,labels_filename):
 	data_holder=np.genfromtxt(data_filename,dtype='str',delimiter='\n')
 	labels_holder=np.genfromtxt(labels_filename,dtype='str',delimiter='\n')
@@ -21,35 +26,32 @@ def get_data(data_filename,labels_filename):
 			labels.append(l[0])
 	return data,labels
 
-def main():
-    data,labels=get_data('reduced_data/reduced_titles.out','reduced_data/topics_labels.out')
-    data_vectorizer = CountVectorizer()
-    vector_data = data_vectorizer.fit_transform(data)
-
-    n_labels = len(set(labels))
-
-    svd = TruncatedSVD(n_components = 2, n_iter=10, random_state=42, tol=0.0)
+def cluster(vector_data, labels, n_clusters):
+    svd = TruncatedSVD(n_components = N_COMPONENTS, n_iter=10, random_state=42, tol=0.0)
     svd_data = svd.fit_transform(vector_data)
 
-    estimator = MiniBatchKMeans(init='k-means++', n_clusters=n_labels, n_init=10)
+    estimator = MiniBatchKMeans(init='k-means++', n_clusters=n_clusters, n_init=10)
     kmeans = estimator.fit(svd_data)
-    centroids = kmeans.cluster_centers_
+    assigned = kmeans.labels_
 
-    # SVD for 2D plotting
-    #svd = TruncatedSVD(n_components = 2)
-    #svd_data = svd.fit_transform(vector_data)
-    svd_centroids = centroids #svd.transform(centroids)
-    
+    h_score = metrics.homogeneity_score(labels, assigned)
+    c_score = metrics.completeness_score(labels, assigned)
+
+    return h_score, c_score, kmeans, svd_data
+
+def plot_clustering(vector_data, labels, n_clusters):
+    h_score, c_score, kmeans, svd_data = cluster(vector_data, labels, n_clusters)
+
+    plot_svd = TruncatedSVD(n_components=2, n_iter=10, random_state=42, tol=0.0)
+    plot_svd_data = plot_svd.fit_transform(svd_data)
+    plot_svd_centroids = plot_svd.fit_transform(kmeans.cluster_centers_)
+
     # Step size of the mesh. Decrease to increase the quality of the VQ.
     h = .01     # point in the mesh [x_min, x_max]x[y_min, y_max].
     margin = 0.1
 
-    x_min, x_max = svd_data[:, 0].min() - margin, svd_data[:, 0].max() + margin
-    y_min, y_max = svd_data[:, 1].min() - margin, svd_data[:, 1].max() + margin
-    xx, yy = np.meshgrid(np.arange(x_min, x_max, h), np.arange(y_min, y_max, h))
-
-    # Obtain labels for each point in mesh. Use last trained model.
-    #Z = kmeans.predict(np.c_[xx.ravel(), yy.ravel()])
+    x_min, x_max = plot_svd_data[:, 0].min() - margin, plot_svd_data[:, 0].max() + margin
+    y_min, y_max = plot_svd_data[:, 1].min() - margin, plot_svd_data[:, 1].max() + margin
 
     label_index = {}
     for label in kmeans.labels_:
@@ -58,27 +60,47 @@ def main():
 
     cmap = plt.get_cmap('Set1')
 
-    # Put the result into a color plot
-    #Z = Z.reshape(xx.shape)
     plt.figure(1)
     plt.clf()
-    # plt.imshow(Z, interpolation='nearest',
-    #        extent=(xx.min(), xx.max(), yy.min(), yy.max()),
-    #        cmap=plt.cm.Paired,
-    #        aspect='auto', origin='lower')
-    plt.scatter(svd_data[:,0], svd_data[:,1], s=2,
+    plt.scatter(plot_svd_data[:,0], plot_svd_data[:,1], s=2,
             c=kmeans.labels_,
             cmap=cmap)
-    plt.scatter(svd_centroids[:, 0], svd_centroids[:, 1],
+    plt.scatter(plot_svd_centroids[:, 0], plot_svd_centroids[:, 1],
             marker='x', s=169, linewidths=3,
-            c=np.arange(n_labels),
+            c=np.arange(n_clusters),
             cmap=cmap, zorder=10)
-    plt.title('K-means clustering with {} clusters (SVD-projected plot)\n'
-          'Centroids are marked with colored cross'.format(n_labels))
+    plt.title('K-means clustering with {} clusters (2D SVD-projected plot)\n'
+          'Centroids are marked with a colored cross'.format(n_clusters))
     plt.xlim(x_min, x_max)
     plt.ylim(y_min, y_max)
-    plt.xticks(())
-    plt.yticks(())
     plt.show()
+
+def main():
+    data,labels=get_data('reduced_data/reduced_titles.out','reduced_data/places_labels.out')
+    data_vectorizer = CountVectorizer()
+    vector_data = data_vectorizer.fit_transform(data)
+
+    n_labels = len(set(labels))
+
+    k_values = []
+    h_scores = []
+    c_scores = []
+    for i in range(1, MAX_K, K_STEP):
+        h_score, c_score, kmeans, svd_data = cluster(vector_data, labels, i)
+        k_values.append(i)
+        h_scores.append(h_score)
+        c_scores.append(c_score)
+
+    # Plot h scores vs k
+    plt.figure(1)
+    plt.clf()
+    plt.title('K-Means Homogeneity vs K (number of clusters)\nTitle Vectors and Places Labels')
+    plt.xlabel('Number of Clusters')
+    plt.ylabel('Homogeneity')
+    plt.plot(k_values, h_scores, '-', lw=2)
+    plt.show()
+
+    n_clusters = int(input('number of clusters to use for plot:'))
+    plot_clustering(vector_data, labels, n_clusters)
 
 main()
