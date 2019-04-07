@@ -1,0 +1,186 @@
+                     precision    recall  f1-score   support
+
+            algeria       0.00      0.00      0.00         0
+          argentina       0.90      1.00      0.95        19
+              aruba       0.00      0.00      0.00         0
+          australia       0.73      0.99      0.84        67
+            austria       0.89      0.73      0.80        11
+            bahrain       0.72      0.87      0.79        15
+         bangladesh       0.56      0.90      0.69        10
+           barbados       0.00      0.00      0.00         0
+            belgium       0.91      0.93      0.92        75
+            bolivia       0.90      1.00      0.95         9
+             brazil       0.75      1.00      0.86        59
+           bulgaria       0.00      0.00      0.00         0
+             canada       0.84      0.94      0.89       402
+              chile       0.00      0.00      0.00         0
+              china       0.92      0.98      0.95        47
+           colombia       0.38      0.83      0.53         6
+         costa-rica       0.00      0.00      0.00         0
+               cuba       0.00      0.00      0.00         0
+             cyprus       0.00      0.00      0.00         0
+            denmark       0.88      1.00      0.93         7
+       east-germany       0.00      0.00      0.00         0
+            ecuador       0.93      0.93      0.93        15
+              egypt       0.25      0.50      0.33         2
+           ethiopia       0.00      0.00      0.00         0
+               fiji       0.00      0.00      0.00         0
+            finland       0.94      1.00      0.97        15
+             france       0.89      0.95      0.92       165
+              ghana       0.00      0.00      0.00         0
+             greece       0.00      0.00      0.00         1
+              haiti       0.00      0.00      0.00         0
+          hong-kong       0.98      0.98      0.98        57
+            hungary       0.00      0.00      0.00         0
+              india       0.60      1.00      0.75        12
+          indonesia       0.87      1.00      0.93        27
+               iran       0.28      0.71      0.40         7
+               iraq       0.00      0.00      0.00         0
+            ireland       0.00      0.00      0.00         0
+             israel       0.00      0.00      0.00         0
+              italy       0.70      0.98      0.82        43
+        ivory-coast       0.22      1.00      0.36         2
+            jamaica       0.00      0.00      0.00         0
+              japan       0.85      0.93      0.89       354
+             jordan       0.00      0.00      0.00         0
+              kenya       0.50      1.00      0.67         3
+             kuwait       0.29      1.00      0.44         4
+            lebanon       0.00      0.00      0.00         0
+         luxembourg       0.03      1.00      0.07         1
+         madagascar       0.00      0.00      0.00         0
+           malaysia       0.91      1.00      0.95        21
+             mexico       0.50      1.00      0.67         7
+            morocco       0.00      0.00      0.00         0
+        netherlands       0.81      1.00      0.89        63
+        new-zealand       0.80      0.97      0.88        34
+          nicaragua       0.00      0.00      0.00         0
+            nigeria       0.33      1.00      0.50         3
+        north-korea       0.00      0.00      0.00         0
+             norway       0.48      1.00      0.65        10
+           pakistan       0.00      0.00      0.00         0
+             panama       0.00      0.00      0.00         0
+   papua-new-guinea       0.00      0.00      0.00         0
+               peru       0.83      0.91      0.87        11
+        philippines       0.92      0.96      0.94        47
+             poland       0.50      1.00      0.67         1
+           portugal       0.20      1.00      0.33         1
+              qatar       0.00      0.00      0.00         0
+       saudi-arabia       0.00      0.00      0.00         0
+       sierra-leone       0.00      0.00      0.00         0
+          singapore       0.80      0.83      0.81        29
+       south-africa       0.54      1.00      0.70        20
+        south-korea       0.97      0.94      0.95        32
+              spain       0.89      0.94      0.92        18
+          sri-lanka       0.00      0.00      0.00         0
+              sudan       0.00      0.00      0.00         0
+           suriname       0.00      0.00      0.00         0
+             sweden       0.97      1.00      0.99        39
+        switzerland       0.82      0.93      0.87        84
+              syria       0.00      0.00      0.00         0
+             taiwan       0.95      0.95      0.95        41
+           tanzania       0.00      0.00      0.00         0
+           thailand       1.00      1.00      1.00        25
+               togo       0.00      0.00      0.00         0
+             turkey       0.25      1.00      0.40         4
+                uae       0.81      1.00      0.89        17
+             uganda       0.50      1.00      0.67         2
+                 uk       0.94      0.94      0.94       571
+            uruguay       0.00      0.00      0.00         0
+                usa       0.99      0.90      0.94      6557
+               ussr       0.44      0.80      0.57        10
+          venezuela       0.67      0.87      0.75        23
+       west-germany       0.85      0.98      0.91       178
+yemen-arab-republic       0.00      0.00      0.00         0
+yemen-demo-republic       0.00      0.00      0.00         0
+         yugoslavia       0.64      1.00      0.78         7
+             zambia       0.56      1.00      0.71         5
+           zimbabwe       0.00      0.00      0.00         0
+
+        avg / total       0.95      0.92      0.93      9295
+
+Accuracy score for testing set:
+0.9156535771920388
+
+Classification report for testing set:
+                 precision    recall  f1-score   support
+
+            acq       0.84      0.60      0.70      1694
+           alum       0.29      0.57      0.38        14
+        austdlr       0.00      0.00      0.00         0
+            bop       0.30      0.50      0.38        20
+        carcass       0.05      0.25      0.09         4
+          cocoa       0.48      0.74      0.58        19
+        coconut       0.00      0.00      0.00         0
+         coffee       0.70      0.93      0.80        43
+         copper       0.56      0.55      0.55        33
+           corn       0.00      0.00      0.00         1
+         cotton       0.42      0.50      0.45        10
+            cpi       0.55      0.40      0.46        57
+            cpu       0.00      0.00      0.00         1
+          crude       0.48      0.80      0.60       181
+            dlr       0.14      0.60      0.23         5
+           earn       0.92      0.92      0.92      1867
+       f-cattle       0.00      0.00      0.00         0
+       fishmeal       0.00      0.00      0.00         0
+           fuel       0.00      0.00      0.00         0
+            gas       0.13      0.75      0.22         4
+            gnp       0.42      0.64      0.51        44
+           gold       0.68      0.66      0.67        61
+          grain       0.54      0.70      0.61       200
+      groundnut       0.00      0.00      0.00         0
+           heat       0.67      0.67      0.67         6
+             hk       0.00      0.00      0.00         0
+            hog       0.89      1.00      0.94         8
+        housing       0.50      0.83      0.62         6
+         income       0.00      0.00      0.00         0
+    instal-debt       0.33      1.00      0.50         1
+       interest       0.49      0.31      0.38       273
+    inventories       0.00      0.00      0.00         0
+            ipi       0.55      0.57      0.56        30
+     iron-steel       0.48      0.82      0.61        17
+            jet       0.00      0.00      0.00        14
+           jobs       0.65      0.65      0.65        26
+           lead       0.00      0.00      0.00         5
+            lei       0.17      1.00      0.29         1
+      livestock       0.35      0.37      0.36        19
+         lumber       0.29      0.50      0.36         4
+      meal-feed       0.14      0.17      0.15         6
+       money-fx       0.59      0.61      0.60       352
+   money-supply       0.50      0.67      0.57        64
+        naphtha       0.00      0.00      0.00         0
+        nat-gas       0.21      0.44      0.28        16
+         nickel       0.00      0.00      0.00         0
+        oilseed       0.40      0.22      0.28        73
+         orange       0.20      1.00      0.33         1
+       palm-oil       0.00      0.00      0.00         0
+       pet-chem       0.00      0.00      0.00         2
+       platinum       0.00      0.00      0.00         0
+         potato       1.00      1.00      1.00         1
+        propane       0.00      0.00      0.00         0
+           rand       0.00      0.00      0.00         0
+       rapeseed       1.00      0.33      0.50         3
+       reserves       0.59      0.51      0.55        37
+         retail       0.20      1.00      0.33         2
+           rice       0.00      0.00      0.00         0
+         rubber       0.47      0.90      0.62        10
+           ship       0.27      0.70      0.39        44
+         silver       0.00      0.00      0.00         2
+        soybean       0.00      0.00      0.00         3
+            stg       1.00      0.33      0.50         3
+strategic-metal       0.33      1.00      0.50         3
+          sugar       0.58      0.69      0.63        64
+            tea       0.00      0.00      0.00         0
+            tin       0.69      0.79      0.73        14
+          trade       0.56      0.78      0.65       175
+        veg-oil       0.50      0.48      0.49        50
+          wheat       0.00      0.00      0.00         8
+           wool       0.00      0.00      0.00         1
+            wpi       0.40      0.27      0.32        22
+            yen       1.00      0.50      0.67         4
+           zinc       0.00      0.00      0.00         2
+
+    avg / total       0.75      0.70      0.71      5630
+
+Accuracy score for testing set:
+0.7015985790408525
+
