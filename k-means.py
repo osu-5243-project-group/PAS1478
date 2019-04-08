@@ -122,7 +122,7 @@ def combine_vectors(type,unique,bodies,orgs,people,exchanges,dates):
 
 
 def main():
-	type='topics'
+	type='places'
 	if(type=='topics'):
 		title_vectors,title_labels=vector_data('reduced_data/reduced_titles.out','reduced_data/topics_labels.out')
 		bodies_vectors,bodies_labels=vector_data('reduced_data/reduced_bodies.out','reduced_data/topics_labels.out')
@@ -132,6 +132,7 @@ def main():
 		dates_vectors,dates_labels=vector_data('reduced_data/reduced_dates.out','reduced_data/topics_labels.out')
 		combined_svd_vector=combine_vectors('topics',title_vectors,bodies_vectors,orgs_vectors,people_vectors,exchanges_vectors,dates_vectors)
 		n_labels = len(set(title_labels))
+		labels=title_labels
 	else:
 		dateline_vectors,dateline_labels=vector_data('reduced_data/reduced_titles.out','reduced_data/places_labels.out')
 		bodies_vectors,bodies_labels=vector_data('reduced_data/reduced_bodies.out','reduced_data/places_labels.out')
@@ -141,12 +142,13 @@ def main():
 		dates_vectors,dates_labels=vector_data('reduced_data/reduced_dates.out','reduced_data/places_labels.out')
 		combined_svd_vector=combine_vectors('places',dateline_vectors,bodies_vectors,orgs_vectors,people_vectors,exchanges_vectors,dates_vectors)
 		n_labels = len(set(dateline_labels))
+		labels=dateline_labels
 
 	k_values = []
 	h_scores = []
 	c_scores = []
 	for i in range(1, MAX_K, K_STEP):
-		h_score, c_score, kmeans, svd_data = cluster(combined_svd_vector, title_labels, i)
+		h_score, c_score, kmeans, svd_data = cluster(combined_svd_vector, labels, i)
 		k_values.append(i)
 		h_scores.append(h_score)
 		c_scores.append(c_score)
@@ -154,13 +156,13 @@ def main():
 	# Plot h scores vs k
 	plt.figure(1)
 	plt.clf()
-	plt.title('K-Means Homogeneity vs K (number of clusters)\nTitle Vectors and Topics Labels')
+	plt.title('K-Means Homogeneity vs K (number of clusters)\n Vectors and Places Labels')
 	plt.xlabel('Number of Clusters')
 	plt.ylabel('Homogeneity')
 	plt.plot(k_values, h_scores, '-', lw=2)
 	plt.show()
 
 	n_clusters = int(input('number of clusters to use for plot:'))
-	plot_clustering(combined_svd_vector, title_labels, n_clusters)
+	plot_clustering(combined_svd_vector, labels, n_clusters)
 
 main()
