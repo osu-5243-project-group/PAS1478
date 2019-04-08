@@ -9,7 +9,7 @@ from sklearn.decomposition import TruncatedSVD
 from sklearn.cluster import KMeans, MiniBatchKMeans
 
 N_CLUSTERS = 10
-N_COMPONENTS = 20
+N_COMPONENTS = 18
 MAX_K = 100
 K_STEP = 5
 
@@ -77,55 +77,76 @@ def vector_data(filename,labels_filename):
 	data,labels=get_data(filename,labels_filename)
 	data_vectorizer = CountVectorizer()
 	vector_data = data_vectorizer.fit_transform(data)
-	print(vector_data)
-	if(vector_data[0].shape[0]<N_COMPONENTS):
-		width=N_COMPONENTS-vector_data[0].shape[0]
-		vector_data=np.pad(vector_data,pad_width=width,mode='constant',constant_values=0)
-		print(vector_data)
 	svd = TruncatedSVD(n_components = N_COMPONENTS, n_iter=10, random_state=42, tol=0.0)
 	svd_data = svd.fit_transform(vector_data)
 	return svd_data,labels
 
-def combine_vectors(weights,unique,bodies,orgs,people,exchanges,dates):
-	weighted_unique=np.multiple(0.1,unique)
-	weighted_people=np.multiply(0.1,people)
-	weighted_orgs=np.multiply(0.2,orgs)
-	weighted_dates=np.multiply(0.3,dates)
-	weighted_exchanges=np.multiply(0.7,exchanges)
-	weighted_bodies=np.multiply(0.5,bodies)
+def combine_vectors(type,unique,bodies,orgs,people,exchanges,dates):
+	if(type=='topics'):
+		weighted_unique=np.multiply(0.1,unique)
+		weighted_people=np.multiply(0.9,people)
+		weighted_orgs=np.multiply(0.03,orgs)
+		weighted_dates=np.multiply(0.03,dates)
+		weighted_exchanges=np.multiply(0.03,exchanges)
+		weighted_bodies=np.multiply(0.5,bodies)
 
 
-	together_1=np.add(weighted_people,weighted_orgs)
-	together_2=np.add(weighted_dates,weighted_exchanges)
-	together_3=np.add(together_1,together_2)
+		together_1=np.add(weighted_people,weighted_orgs)
+		together_2=np.add(weighted_dates,weighted_exchanges)
+		together_3=np.add(together_1,together_2)
 
-	group_together_1=np.add(weighted_unique,weighted_bodies)
-	group_together_2=np.multple(0.4,together_3)
+		group_together_1=np.add(weighted_unique,weighted_bodies)
+		group_together_2=np.multiply(0.4,together_3)
 
-	together=np.add(group_together_1,group_together_2)
-	return together
+		together=np.add(group_together_1,group_together_2)
+		return together
+	else:
+		weighted_unique=np.multiply(0.5,unique)
+		weighted_people=np.multiply(0.25,people)
+		weighted_orgs=np.multiply(0.05,orgs)
+		weighted_dates=np.multiply(0.25,dates)
+		weighted_exchanges=np.multiply(0.25,exchanges)
+		weighted_bodies=np.multiply(0.3,bodies)
+
+
+		together_1=np.add(weighted_people,weighted_orgs)
+		together_2=np.add(weighted_dates,weighted_exchanges)
+		together_3=np.add(together_1,together_2)
+
+		group_together_1=np.add(weighted_unique,weighted_bodies)
+		group_together_2=np.multiply(0.2,together_3)
+
+		together=np.add(group_together_1,group_together_2)
+		return together
+		
 
 
 def main():
-
-	title_vectors,title_labels=vector_data('reduced_data/reduced_titles.out','reduced_data/topics_labels.out')
-	bodies_vectors,bodies_labels=vector_data('reduced_data/reduced_bodies.out','reduced_data/topics_labels.out')
-	orgs_vectors,orgs_labels=vector_data('reduced_data/reduced_orgs.out','reduced_data/topics_labels.out')
-	people_vectors,people_labels=vector_data('reduced_data/reduced_people.out','reduced_data/topics_labels.out')
-	exchanges_vectors,exchanges_labels=vector_data('reduced_data/reduced_exchanges.out','reduced_data/topics_labels.out')
-	dates_vectors,dates_labels=vector_data('reduced_data/reduced_dates.out','reduced_data/topics_labels.out')
-	weights=[]
-	combined_svd_vector=combine_vectors(weights,title_vectors,bodies_vectors,orgs_vectors,people_vectors,exchanges_vectors,dates_vectors)
-	# data_vectorizer = CountVectorizer()
-	# vector_data = data_vectorizer.fit_transform(data)
-
-	n_labels = len(set(title_labels))
+	type='topics'
+	if(type=='topics'):
+		title_vectors,title_labels=vector_data('reduced_data/reduced_titles.out','reduced_data/topics_labels.out')
+		bodies_vectors,bodies_labels=vector_data('reduced_data/reduced_bodies.out','reduced_data/topics_labels.out')
+		orgs_vectors,orgs_labels=vector_data('reduced_data/reduced_orgs.out','reduced_data/topics_labels.out')
+		people_vectors,people_labels=vector_data('reduced_data/reduced_people.out','reduced_data/topics_labels.out')
+		exchanges_vectors,exchanges_labels=vector_data('reduced_data/reduced_exchanges.out','reduced_data/topics_labels.out')
+		dates_vectors,dates_labels=vector_data('reduced_data/reduced_dates.out','reduced_data/topics_labels.out')
+		combined_svd_vector=combine_vectors('topics',title_vectors,bodies_vectors,orgs_vectors,people_vectors,exchanges_vectors,dates_vectors)
+		n_labels = len(set(title_labels))
+	else:
+		dateline_vectors,dateline_labels=vector_data('reduced_data/reduced_titles.out','reduced_data/places_labels.out')
+		bodies_vectors,bodies_labels=vector_data('reduced_data/reduced_bodies.out','reduced_data/places_labels.out')
+		orgs_vectors,orgs_labels=vector_data('reduced_data/reduced_orgs.out','reduced_data/places_labels.out')
+		people_vectors,people_labels=vector_data('reduced_data/reduced_people.out','reduced_data/places_labels.out')
+		exchanges_vectors,exchanges_labels=vector_data('reduced_data/reduced_exchanges.out','reduced_data/places_labels.out')
+		dates_vectors,dates_labels=vector_data('reduced_data/reduced_dates.out','reduced_data/places_labels.out')
+		combined_svd_vector=combine_vectors('places',dateline_vectors,bodies_vectors,orgs_vectors,people_vectors,exchanges_vectors,dates_vectors)
+		n_labels = len(set(dateline_labels))
 
 	k_values = []
 	h_scores = []
 	c_scores = []
 	for i in range(1, MAX_K, K_STEP):
-		h_score, c_score, kmeans, svd_data = cluster(combined_svd_vector, labels, i)
+		h_score, c_score, kmeans, svd_data = cluster(combined_svd_vector, title_labels, i)
 		k_values.append(i)
 		h_scores.append(h_score)
 		c_scores.append(c_score)
@@ -140,6 +161,6 @@ def main():
 	plt.show()
 
 	n_clusters = int(input('number of clusters to use for plot:'))
-	plot_clustering(combined_svd_vector, labels, n_clusters)
+	plot_clustering(combined_svd_vector, title_labels, n_clusters)
 
 main()
