@@ -7,7 +7,9 @@ from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 from sklearn.decomposition import TruncatedSVD
 from sklearn.cluster import KMeans, MiniBatchKMeans
+from mpl_toolkits.mplot3d import Axes3D
 
+PLOT_COMPONENTS = 3
 N_CLUSTERS = 10
 N_COMPONENTS = 18
 MAX_K = 100
@@ -40,7 +42,7 @@ def cluster(vector_data, labels, n_clusters):
 def plot_clustering(vector_data, labels, n_clusters):
 	h_score, c_score, kmeans, s_data = cluster(vector_data, labels, n_clusters)
 
-	plot_svd = TruncatedSVD(n_components=2, n_iter=10, random_state=42, tol=0.0)
+	plot_svd = TruncatedSVD(n_components=PLOT_COMPONENTS, n_iter=10, random_state=42, tol=0.0)
 	plot_svd_data = plot_svd.fit_transform(s_data)
 	plot_svd_centroids = plot_svd.transform(kmeans.cluster_centers_)
 
@@ -50,6 +52,7 @@ def plot_clustering(vector_data, labels, n_clusters):
 
 	x_min, x_max = plot_svd_data[:, 0].min() - margin, plot_svd_data[:, 0].max() + margin
 	y_min, y_max = plot_svd_data[:, 1].min() - margin, plot_svd_data[:, 1].max() + margin
+	z_min, z_max = plot_svd_data[:, 2].min() - margin, plot_svd_data[:, 2].max() + margin
 
 	label_index = {}
 	for label in kmeans.labels_:
@@ -58,19 +61,20 @@ def plot_clustering(vector_data, labels, n_clusters):
 
 	cmap = plt.get_cmap('Set1')
 
-	plt.figure(1)
-	plt.clf()
-	plt.scatter(plot_svd_data[:,0], plot_svd_data[:,1], s=2,
+	fig=plt.figure(1)
+	ax=fig.add_subplot(111,projection='3d')
+	ax.scatter(plot_svd_data[:,0], plot_svd_data[:,1], plot_svd_data[:,2], s=2,
 	c=kmeans.labels_,
 	cmap=cmap)
-	plt.scatter(plot_svd_centroids[:, 0], plot_svd_centroids[:, 1],
+	ax.scatter(plot_svd_centroids[:, 0], plot_svd_centroids[:, 1], plot_svd_centroids[:,2],
 	marker='x', s=169, linewidths=3,
 	c=np.arange(n_clusters),
 	cmap=cmap, zorder=10)
-	plt.title('K-means clustering with {} clusters (2D SVD-projected plot)\n'
-	'Centroids are marked with a colored cross'.format(n_clusters))
-	plt.xlim(x_min, x_max)
-	plt.ylim(y_min, y_max)
+	title='K-means clustering with '+n_clusters+' clusters (3D SVD-projected plot)\n')
+	ax.set_title(title)
+	ax.set_xlim(x_min, x_max)
+	ax.set_ylim(y_min, y_max)
+	ax.set_zlim(z_min, z_max)
 	plt.show()
 
 def vector_data(filename,labels_filename):
