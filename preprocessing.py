@@ -62,8 +62,8 @@ def main():
 	array=[]
 	for filename in filenames:
 		soup = BeautifulSoup(open(filename), 'html.parser')
-		#frequency_of_words_in_body(soup,word_counts)
-		#datelines_array=get_datelines(soup,datelines_array)
+		frequency_of_words_in_body(soup,word_counts)
+		datelines_array=get_datelines(soup,datelines_array)
 		places_array,places_empty,places_counts=get_objects(soup,'places',places_array,places_empty,places_counts)
 		topics_array,topics_empty,topics_counts=get_objects(soup,'topics',topics_array,topics_empty,topics_counts)
 	
@@ -76,7 +76,7 @@ def main():
 	print('number of empty places objects: ',places_empty)
 	print('number of empty topics objects: ',topics_empty)
 	
-	#print('unique datelines (minus dates):', datelines_array)
-	#print('number of unique datelines:', len(datelines_array))
+	print('unique datelines (minus dates):', datelines_array)
+	print('number of unique datelines:', len(datelines_array))
 	
 main()

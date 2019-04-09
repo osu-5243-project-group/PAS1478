@@ -29,8 +29,6 @@ def get_data(data_filename,labels_filename):
 	return data,labels
 
 def cluster(vector_data, labels, n_clusters):
-	# svd = TruncatedSVD(n_components = N_COMPONENTS, n_iter=10, random_state=42, tol=0.0)
-	# svd_data = svd.fit_transform(vector_data)
 	svd_data=vector_data
 	estimator = MiniBatchKMeans(init='k-means++', n_clusters=n_clusters, n_init=10)
 	kmeans = estimator.fit(svd_data)
@@ -42,6 +40,10 @@ def cluster(vector_data, labels, n_clusters):
 def plot_clustering(vector_data, labels, n_clusters):
 	h_score, c_score, kmeans, s_data = cluster(vector_data, labels, n_clusters)
 
+	print('h score: ', h_score)
+	print('c score: ', c_score)
+	print('score: ',kmeans.score(s_data))
+	print('intertia: ', kmeans.inertia_)
 	plot_svd = TruncatedSVD(n_components=PLOT_COMPONENTS, n_iter=10, random_state=42, tol=0.0)
 	plot_svd_data = plot_svd.fit_transform(s_data)
 	plot_svd_centroids = plot_svd.transform(kmeans.cluster_centers_)
@@ -70,7 +72,8 @@ def plot_clustering(vector_data, labels, n_clusters):
 	marker='x', s=169, linewidths=3,
 	c=np.arange(n_clusters),
 	cmap=cmap, zorder=10)
-	title='K-means clustering with '+n_clusters+' clusters (3D SVD-projected plot)\n')
+	title=('Places K-means clustering with {} clusters (3D SVD-projected plot)\n'
+          'Centroids are marked with a colored cross'.format(n_clusters))
 	ax.set_title(title)
 	ax.set_xlim(x_min, x_max)
 	ax.set_ylim(y_min, y_max)
@@ -126,47 +129,48 @@ def combine_vectors(type,unique,bodies,orgs,people,exchanges,dates):
 
 
 def main():
-	type='places'
-	if(type=='topics'):
-		title_vectors,title_labels=vector_data('reduced_data/reduced_titles.out','reduced_data/topics_labels.out')
-		bodies_vectors,bodies_labels=vector_data('reduced_data/reduced_bodies.out','reduced_data/topics_labels.out')
-		orgs_vectors,orgs_labels=vector_data('reduced_data/reduced_orgs.out','reduced_data/topics_labels.out')
-		people_vectors,people_labels=vector_data('reduced_data/reduced_people.out','reduced_data/topics_labels.out')
-		exchanges_vectors,exchanges_labels=vector_data('reduced_data/reduced_exchanges.out','reduced_data/topics_labels.out')
-		dates_vectors,dates_labels=vector_data('reduced_data/reduced_dates.out','reduced_data/topics_labels.out')
-		combined_svd_vector=combine_vectors('topics',title_vectors,bodies_vectors,orgs_vectors,people_vectors,exchanges_vectors,dates_vectors)
-		n_labels = len(set(title_labels))
-		labels=title_labels
-	else:
-		dateline_vectors,dateline_labels=vector_data('reduced_data/reduced_titles.out','reduced_data/places_labels.out')
-		bodies_vectors,bodies_labels=vector_data('reduced_data/reduced_bodies.out','reduced_data/places_labels.out')
-		orgs_vectors,orgs_labels=vector_data('reduced_data/reduced_orgs.out','reduced_data/places_labels.out')
-		people_vectors,people_labels=vector_data('reduced_data/reduced_people.out','reduced_data/places_labels.out')
-		exchanges_vectors,exchanges_labels=vector_data('reduced_data/reduced_exchanges.out','reduced_data/places_labels.out')
-		dates_vectors,dates_labels=vector_data('reduced_data/reduced_dates.out','reduced_data/places_labels.out')
-		combined_svd_vector=combine_vectors('places',dateline_vectors,bodies_vectors,orgs_vectors,people_vectors,exchanges_vectors,dates_vectors)
-		n_labels = len(set(dateline_labels))
-		labels=dateline_labels
+	types=['topics','places']
+	for type in types:
+		if(type=='topics'):
+			title_vectors,title_labels=vector_data('reduced_data/reduced_titles.out','reduced_data/topics_labels.out')
+			bodies_vectors,bodies_labels=vector_data('reduced_data/reduced_bodies.out','reduced_data/topics_labels.out')
+			orgs_vectors,orgs_labels=vector_data('reduced_data/reduced_orgs.out','reduced_data/topics_labels.out')
+			people_vectors,people_labels=vector_data('reduced_data/reduced_people.out','reduced_data/topics_labels.out')
+			exchanges_vectors,exchanges_labels=vector_data('reduced_data/reduced_exchanges.out','reduced_data/topics_labels.out')
+			dates_vectors,dates_labels=vector_data('reduced_data/reduced_dates.out','reduced_data/topics_labels.out')
+			combined_svd_vector=combine_vectors('topics',title_vectors,bodies_vectors,orgs_vectors,people_vectors,exchanges_vectors,dates_vectors)
+			n_labels = len(set(title_labels))
+			labels=title_labels
+		else:
+			dateline_vectors,dateline_labels=vector_data('reduced_data/reduced_titles.out','reduced_data/places_labels.out')
+			bodies_vectors,bodies_labels=vector_data('reduced_data/reduced_bodies.out','reduced_data/places_labels.out')
+			orgs_vectors,orgs_labels=vector_data('reduced_data/reduced_orgs.out','reduced_data/places_labels.out')
+			people_vectors,people_labels=vector_data('reduced_data/reduced_people.out','reduced_data/places_labels.out')
+			exchanges_vectors,exchanges_labels=vector_data('reduced_data/reduced_exchanges.out','reduced_data/places_labels.out')
+			dates_vectors,dates_labels=vector_data('reduced_data/reduced_dates.out','reduced_data/places_labels.out')
+			combined_svd_vector=combine_vectors('places',dateline_vectors,bodies_vectors,orgs_vectors,people_vectors,exchanges_vectors,dates_vectors)
+			n_labels = len(set(dateline_labels))
+			labels=dateline_labels
 
-	k_values = []
-	h_scores = []
-	c_scores = []
-	for i in range(1, MAX_K, K_STEP):
-		h_score, c_score, kmeans, svd_data = cluster(combined_svd_vector, labels, i)
-		k_values.append(i)
-		h_scores.append(h_score)
-		c_scores.append(c_score)
+		k_values = []
+		h_scores = []
+		c_scores = []
+		for i in range(1, MAX_K, K_STEP):
+			h_score, c_score, kmeans, svd_data = cluster(combined_svd_vector, labels, i)
+			k_values.append(i)
+			h_scores.append(h_score)
+			c_scores.append(c_score)
 
-	# Plot h scores vs k
-	plt.figure(1)
-	plt.clf()
-	plt.title('K-Means Homogeneity vs K (number of clusters)\n Vectors and Places Labels')
-	plt.xlabel('Number of Clusters')
-	plt.ylabel('Homogeneity')
-	plt.plot(k_values, h_scores, '-', lw=2)
-	plt.show()
+		# Plot h scores vs k
+		plt.figure(1)
+		plt.clf()
+		plt.title('K-Means Homogeneity vs K (number of clusters)\n Vectors and Places Labels')
+		plt.xlabel('Number of Clusters')
+		plt.ylabel('Homogeneity')
+		plt.plot(k_values, h_scores, '-', lw=2)
+		plt.show()
 
-	n_clusters = int(input('number of clusters to use for plot:'))
-	plot_clustering(combined_svd_vector, labels, n_clusters)
+		n_clusters = int(input('number of clusters to use for plot:'))
+		plot_clustering(combined_svd_vector, labels, n_clusters)
 
 main()
